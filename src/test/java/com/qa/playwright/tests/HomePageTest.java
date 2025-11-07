@@ -1,6 +1,6 @@
 package com.qa.playwright.tests;
 
-import Utilities.DataProviders;
+import com.qa.playwright.utilities.DataProviders;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

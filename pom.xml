@@ -37,6 +37,26 @@
       <version>${extentreports-version}</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>5.4.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>5.4.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+
   </dependencies>
 
 <!--  <build>-->
@@ -80,7 +100,7 @@
         <configuration>
           <testFailureIgnore>true</testFailureIgnore>
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/testrunners/testng_regressions.xml</suiteXmlFile>
+            <suiteXmlFile>src/test/resources/testrunners/testng_SwagLabRunner.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

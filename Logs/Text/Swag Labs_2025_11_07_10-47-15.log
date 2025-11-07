@@ -1,0 +1,33 @@
+2025-11-07 10:47:15 INFO  BaseTest:73 - Log4j initialized for this run: 2025_11_07_10-47-15
+2025-11-07 10:47:15 INFO  BaseTest:50 - Browser initialize
+2025-11-07 10:47:31 INFO  BaseTest:12 - Login TestCases started
+2025-11-07 10:47:35 INFO  BaseTest:15 - Entered credentials
+2025-11-07 10:47:37 INFO  BaseTest:18 - Verify login
+2025-11-07 10:47:37 INFO  BaseTest:23 - Login Successful
+2025-11-07 10:47:41 INFO  BaseTest:30 - Login TestCases ended
+2025-11-07 10:47:41 INFO  BaseTest:12 - Login TestCases started
+2025-11-07 10:47:45 INFO  BaseTest:15 - Entered credentials
+2025-11-07 10:47:47 INFO  BaseTest:18 - Verify login
+2025-11-07 10:47:47 ERROR BaseTest:27 - Login Unsuccessful
+2025-11-07 10:47:47 INFO  BaseTest:30 - Login TestCases ended
+2025-11-07 10:47:48 INFO  BaseTest:12 - Login TestCases started
+2025-11-07 10:47:52 INFO  BaseTest:15 - Entered credentials
+2025-11-07 10:47:54 INFO  BaseTest:18 - Verify login
+2025-11-07 10:47:54 INFO  BaseTest:23 - Login Successful
+2025-11-07 10:47:58 INFO  BaseTest:30 - Login TestCases ended
+2025-11-07 10:47:58 INFO  BaseTest:12 - Login TestCases started
+2025-11-07 10:48:02 INFO  BaseTest:15 - Entered credentials
+2025-11-07 10:48:09 INFO  BaseTest:18 - Verify login
+2025-11-07 10:48:09 INFO  BaseTest:23 - Login Successful
+2025-11-07 10:48:13 INFO  BaseTest:30 - Login TestCases ended
+2025-11-07 10:48:13 INFO  BaseTest:12 - Login TestCases started
+2025-11-07 10:48:17 INFO  BaseTest:15 - Entered credentials
+2025-11-07 10:48:19 INFO  BaseTest:18 - Verify login
+2025-11-07 10:48:19 INFO  BaseTest:23 - Login Successful
+2025-11-07 10:48:23 INFO  BaseTest:30 - Login TestCases ended
+2025-11-07 10:48:23 INFO  BaseTest:12 - Login TestCases started
+2025-11-07 10:48:28 INFO  BaseTest:15 - Entered credentials
+2025-11-07 10:48:30 INFO  BaseTest:18 - Verify login
+2025-11-07 10:48:30 INFO  BaseTest:23 - Login Successful
+2025-11-07 10:48:34 INFO  BaseTest:30 - Login TestCases ended
+2025-11-07 10:48:34 INFO  BaseTest:59 - Closing browser
