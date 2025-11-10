@@ -1,0 +1,3 @@
+2025-11-10 10:35:22 INFO  BaseTest:80 - Log4j initialized for this run: 2025_11_10_10-35-22
+2025-11-10 10:35:22 INFO  BaseTest:54 - Browser initialize
+2025-11-10 10:35:43 INFO  BaseTest:66 - Closing browser

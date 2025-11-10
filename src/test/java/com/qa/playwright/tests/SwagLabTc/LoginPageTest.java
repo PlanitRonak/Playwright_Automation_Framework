@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginPageTest extends BaseTest {
-    @Test(dataProvider = "swagLabData", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "swagLabData", dataProviderClass = DataProviders.class, enabled = true)
     public void testLogin(String username, String password, String status) {
         logger.info("Login TestCases started");
         swagloginPage.enterUsername(username);

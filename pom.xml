@@ -100,7 +100,7 @@
         <configuration>
           <testFailureIgnore>true</testFailureIgnore>
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/testrunners/testng_SwagLabRunner.xml</suiteXmlFile>
+            <suiteXmlFile>src/test/resources/testrunners/testng_TestAutomationRunner.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

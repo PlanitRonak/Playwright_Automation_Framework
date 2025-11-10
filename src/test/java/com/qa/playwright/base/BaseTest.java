@@ -9,6 +9,8 @@ import com.qa.playwright.pages.AmazonPages.HomePage;
 import com.qa.playwright.pages.PracticeHomePage;
 import com.qa.playwright.pages.SwagLabPages.swagLabHomePage;
 import com.qa.playwright.pages.SwagLabPages.swagLabLoginPage;
+import com.qa.playwright.pages.TestAutomationPages.testAutomationHomePage;
+import com.qa.playwright.utilities.ReusableFunctions;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.*;
@@ -26,6 +28,7 @@ public class BaseTest {
     protected SoftAssert softAssert;
 
     protected static final Logger logger = Logger.getLogger(BaseTest.class);
+    protected ReusableFunctions _reuse;
 //    Pages
     protected PracticeHomePage homePage;
     protected LoginPage loginPage;
@@ -33,6 +36,7 @@ public class BaseTest {
     protected CartPage amazonCartPage;
     protected swagLabLoginPage swagloginPage;
     protected swagLabHomePage swagLabHomePage;
+    protected testAutomationHomePage testAutomationHomePage;
 
     @Parameters({ "browser" })
     @BeforeClass
@@ -49,9 +53,12 @@ public class BaseTest {
         }
         logger.info("Browser initialize");
         page = pf.initBrowser(prop);
+        _reuse = new ReusableFunctions(logger);
+
         homePage = new PracticeHomePage(page);
-        amazonPage = new HomePage(page);
-        swagloginPage = new swagLabLoginPage(page);
+        amazonPage = new HomePage(page, _reuse);
+        swagloginPage = new swagLabLoginPage(page, _reuse);
+        testAutomationHomePage = new testAutomationHomePage(page, _reuse);
     }
 
     @AfterClass

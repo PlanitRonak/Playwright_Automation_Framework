@@ -1,12 +1,13 @@
 package com.qa.playwright.pages.AmazonPages;
 
 import com.microsoft.playwright.Page;
+import com.qa.playwright.base.BasePage;
+import com.qa.playwright.utilities.ReusableFunctions;
 
-public class CartPage {
-    private Page page;
+public class CartPage extends BasePage {
 
-    public CartPage (Page page) {
-        this.page = page;
+    public CartPage (Page page, ReusableFunctions _reuse) {
+        super(page, _reuse);
     }
 
 //    Locators

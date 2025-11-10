@@ -1,0 +1,32 @@
+2025-11-10 15:50:22 INFO  BaseTest:80 - Log4j initialized for this run: 2025_11_10_15-50-22
+2025-11-10 15:50:22 INFO  BaseTest:54 - Browser initialize
+2025-11-10 15:50:39 INFO  BaseTest:45 - Checking if Portable Charger is present or not
+2025-11-10 15:50:39 INFO  BaseTest:212 - Capture Values of Table
+2025-11-10 15:50:39 INFO  BaseTest:215 - Scanning the Table to get Values of 2 Column.
+2025-11-10 15:50:39 INFO  BaseTest:217 - Getting Values from Page 1
+2025-11-10 15:50:41 INFO  BaseTest:223 - Getting value of row 1 and cell 2
+2025-11-10 15:50:41 INFO  BaseTest:223 - Getting value of row 2 and cell 2
+2025-11-10 15:50:41 INFO  BaseTest:223 - Getting value of row 3 and cell 2
+2025-11-10 15:50:41 INFO  BaseTest:223 - Getting value of row 4 and cell 2
+2025-11-10 15:50:41 INFO  BaseTest:223 - Getting value of row 5 and cell 2
+2025-11-10 15:50:41 INFO  BaseTest:217 - Getting Values from Page 2
+2025-11-10 15:50:43 INFO  BaseTest:223 - Getting value of row 1 and cell 2
+2025-11-10 15:50:43 INFO  BaseTest:223 - Getting value of row 2 and cell 2
+2025-11-10 15:50:43 INFO  BaseTest:223 - Getting value of row 3 and cell 2
+2025-11-10 15:50:43 INFO  BaseTest:223 - Getting value of row 4 and cell 2
+2025-11-10 15:50:43 INFO  BaseTest:223 - Getting value of row 5 and cell 2
+2025-11-10 15:50:43 INFO  BaseTest:217 - Getting Values from Page 3
+2025-11-10 15:50:45 INFO  BaseTest:223 - Getting value of row 1 and cell 2
+2025-11-10 15:50:45 INFO  BaseTest:223 - Getting value of row 2 and cell 2
+2025-11-10 15:50:45 INFO  BaseTest:223 - Getting value of row 3 and cell 2
+2025-11-10 15:50:45 INFO  BaseTest:223 - Getting value of row 4 and cell 2
+2025-11-10 15:50:45 INFO  BaseTest:223 - Getting value of row 5 and cell 2
+2025-11-10 15:50:45 INFO  BaseTest:217 - Getting Values from Page 4
+2025-11-10 15:50:47 INFO  BaseTest:223 - Getting value of row 1 and cell 2
+2025-11-10 15:50:47 INFO  BaseTest:223 - Getting value of row 2 and cell 2
+2025-11-10 15:50:47 INFO  BaseTest:223 - Getting value of row 3 and cell 2
+2025-11-10 15:50:47 INFO  BaseTest:223 - Getting value of row 4 and cell 2
+2025-11-10 15:50:47 INFO  BaseTest:223 - Getting value of row 5 and cell 2
+2025-11-10 15:50:47 INFO  BaseTest:230 - Scanning Complete
+2025-11-10 15:50:47 INFO  BaseTest:47 - Portable Charger is present
+2025-11-10 15:50:47 INFO  BaseTest:66 - Closing browser

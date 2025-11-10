@@ -1,0 +1,14 @@
+2025-11-10 11:56:07 INFO  BaseTest:80 - Log4j initialized for this run: 2025_11_10_11-56-07
+2025-11-10 11:56:07 INFO  BaseTest:54 - Browser initialize
+2025-11-10 11:56:25 INFO  BaseTest:34 - Testing Checkbox
+2025-11-10 11:56:25 INFO  BaseTest:35 - Selecting : [monday, tuesday, thursday]
+2025-11-10 11:56:25 INFO  BaseTest:158 - Locating Check Boxs
+2025-11-10 11:56:25 INFO  BaseTest:164 - Selecting monday
+2025-11-10 11:56:27 INFO  BaseTest:164 - Selecting tuesday
+2025-11-10 11:56:29 INFO  BaseTest:164 - Selecting thursday
+2025-11-10 11:56:31 INFO  BaseTest:178 - Locating Check Boxs
+2025-11-10 11:57:28 INFO  BaseTest:184 - Checking if monday is Selected or not
+2025-11-10 11:58:09 INFO  BaseTest:184 - Checking if tuesday is Selected or not
+2025-11-10 11:58:49 INFO  BaseTest:184 - Checking if thursday is Selected or not
+2025-11-10 11:59:09 INFO  BaseTest:39 - [monday, tuesday, thursday] are selected
+2025-11-10 11:59:09 INFO  BaseTest:66 - Closing browser

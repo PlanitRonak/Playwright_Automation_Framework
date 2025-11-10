@@ -1,0 +1,9 @@
+2025-11-07 12:52:14 INFO  BaseTest:77 - Log4j initialized for this run: 2025_11_07_12-52-14
+2025-11-07 12:52:14 INFO  BaseTest:52 - Browser initialize
+2025-11-07 12:52:29 INFO  BaseTest:11 - Logging into Application
+2025-11-07 12:52:35 INFO  BaseTest:17 - Filter Test Case Started
+2025-11-07 12:52:35 INFO  BaseTest:18 - Navigating to HomePage
+2025-11-07 12:52:35 INFO  BaseTest:20 - Selecting Option
+2025-11-07 12:52:37 INFO  BaseTest:22 - Checking if the Filter is Applied or not
+2025-11-07 12:52:39 INFO  BaseTest:24 - Filter Test Case Finished
+2025-11-07 12:52:39 INFO  BaseTest:63 - Closing browser

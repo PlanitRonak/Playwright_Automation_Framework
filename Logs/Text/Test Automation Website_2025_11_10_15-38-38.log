@@ -1,0 +1,28 @@
+2025-11-10 15:38:38 INFO  BaseTest:80 - Log4j initialized for this run: 2025_11_10_15-38-38
+2025-11-10 15:38:38 INFO  BaseTest:54 - Browser initialize
+2025-11-10 15:38:56 INFO  BaseTest:45 - Checking if Portable Charger is present or not
+2025-11-10 15:38:56 INFO  BaseTest:212 - Capture Values of Table
+2025-11-10 15:38:56 INFO  BaseTest:215 - Scanning the Table to get Values of 2 Column.
+2025-11-10 15:38:58 INFO  BaseTest:222 - Getting value of row 1 and cell 2
+2025-11-10 15:38:58 INFO  BaseTest:222 - Getting value of row 2 and cell 2
+2025-11-10 15:38:58 INFO  BaseTest:222 - Getting value of row 3 and cell 2
+2025-11-10 15:38:58 INFO  BaseTest:222 - Getting value of row 4 and cell 2
+2025-11-10 15:38:58 INFO  BaseTest:222 - Getting value of row 5 and cell 2
+2025-11-10 15:39:00 INFO  BaseTest:222 - Getting value of row 1 and cell 2
+2025-11-10 15:39:00 INFO  BaseTest:222 - Getting value of row 2 and cell 2
+2025-11-10 15:39:00 INFO  BaseTest:222 - Getting value of row 3 and cell 2
+2025-11-10 15:39:00 INFO  BaseTest:222 - Getting value of row 4 and cell 2
+2025-11-10 15:39:00 INFO  BaseTest:222 - Getting value of row 5 and cell 2
+2025-11-10 15:39:02 INFO  BaseTest:222 - Getting value of row 1 and cell 2
+2025-11-10 15:39:02 INFO  BaseTest:222 - Getting value of row 2 and cell 2
+2025-11-10 15:39:02 INFO  BaseTest:222 - Getting value of row 3 and cell 2
+2025-11-10 15:39:02 INFO  BaseTest:222 - Getting value of row 4 and cell 2
+2025-11-10 15:39:02 INFO  BaseTest:222 - Getting value of row 5 and cell 2
+2025-11-10 15:39:04 INFO  BaseTest:222 - Getting value of row 1 and cell 2
+2025-11-10 15:39:04 INFO  BaseTest:222 - Getting value of row 2 and cell 2
+2025-11-10 15:39:05 INFO  BaseTest:222 - Getting value of row 3 and cell 2
+2025-11-10 15:39:05 INFO  BaseTest:222 - Getting value of row 4 and cell 2
+2025-11-10 15:39:05 INFO  BaseTest:222 - Getting value of row 5 and cell 2
+2025-11-10 15:39:05 INFO  BaseTest:229 - Scanning Complete
+2025-11-10 15:39:05 INFO  BaseTest:47 - Portable Charger is present
+2025-11-10 15:39:05 INFO  BaseTest:66 - Closing browser

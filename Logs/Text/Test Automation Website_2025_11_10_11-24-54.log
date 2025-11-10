@@ -1,0 +1,12 @@
+2025-11-10 11:24:54 INFO  BaseTest:80 - Log4j initialized for this run: 2025_11_10_11-24-54
+2025-11-10 11:24:54 INFO  BaseTest:54 - Browser initialize
+2025-11-10 11:25:10 INFO  BaseTest:19 - Testing Radio Button's
+2025-11-10 11:25:10 INFO  BaseTest:20 - Selecting Male
+2025-11-10 11:25:10 INFO  BaseTest:124 - Locating Radio Button
+2025-11-10 11:25:12 INFO  BaseTest:22 - Checking if Male is Selected or not
+2025-11-10 11:25:12 INFO  BaseTest:140 - Locating Radio Button
+2025-11-10 11:25:12 INFO  BaseTest:144 - Radio Button with Value male is Present
+2025-11-10 11:25:12 INFO  BaseTest:146 - Clicking on male
+2025-11-10 11:25:12 INFO  BaseTest:144 - Radio Button with Value female is Present
+2025-11-10 11:25:12 INFO  BaseTest:25 - Male is Selected
+2025-11-10 11:25:12 INFO  BaseTest:66 - Closing browser

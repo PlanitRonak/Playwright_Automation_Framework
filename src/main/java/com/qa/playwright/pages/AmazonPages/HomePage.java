@@ -1,13 +1,12 @@
 package com.qa.playwright.pages.AmazonPages;
 
 import com.microsoft.playwright.Page;
+import com.qa.playwright.base.BasePage;
+import com.qa.playwright.utilities.ReusableFunctions;
 
-public class HomePage {
-
-    private Page page;
-
-    public HomePage(Page page) {
-        this.page = page;
+public class HomePage extends BasePage {
+    public HomePage(Page page, ReusableFunctions _reuse) {
+        super(page, _reuse);
     }
 
 //    Locators
@@ -23,12 +22,13 @@ public class HomePage {
         page.click(addToCartBtn);
     }
 
-    public boolean verifyItemAdded() {
+    public boolean verifyItemAdded() throws InterruptedException {
+        Thread.sleep(2000);
         return page.textContent(cartCount).equals("1");
     }
 
     public CartPage navigateToCart() {
         page.click(cartIconNav);
-        return new CartPage(page);
+        return new CartPage(page, _reuse);
     }
 }
