@@ -1,6 +1,7 @@
 package com.qa.playwright.utilities;
 
 import com.microsoft.playwright.BrowserContext;
+import com.microsoft.playwright.ElementHandle;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.LoadState;
@@ -13,13 +14,15 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ReusableFunctions {
+    Page page;
     Logger logger;
 
-    public ReusableFunctions(Logger logger) {
+    public ReusableFunctions(Page page, Logger logger) {
+        this.page = page;
         this.logger = logger;
     }
 
-    public void selectOption(Page page, String dropDown, String value) {
+    public void selectOption(String dropDown, String value) {
         page.locator(dropDown).selectOption(new SelectOption().setLabel(value));
     }
 
@@ -27,7 +30,7 @@ public class ReusableFunctions {
         return input.replaceAll("[^\\d.]", "");
     }
 
-    public void hoverOver(Page page, String locator) {
+    public void hoverOver(String locator) {
         Locator element = page.locator(locator);
         element.hover();
     }
@@ -49,11 +52,11 @@ public class ReusableFunctions {
         return otp;
     }
 
-    public void keyPress(Page page, String key) {
+    public void keyPress(String key) {
         page.keyboard().press(key);
     }
 
-    public void sendKeys(Page page, String locator, String value) {
+    public void sendKeys(String locator, String value) {
         try {
             page.click(locator);
             page.fill(locator, value);
@@ -62,11 +65,11 @@ public class ReusableFunctions {
         }
     }
 
-    public String getCurrentTabTitle(Page page) {
+    public String getCurrentTabTitle() {
         return page.title();
     }
 
-    public void closeCurrentTab(Page page) {
+    public void closeCurrentTab() {
         // Close the current tab
         page.close();
         // Get all open tabs (pages) from the same context
@@ -98,7 +101,7 @@ public class ReusableFunctions {
         return newPage;
     }
 
-    public boolean verifyElementsLocated (Page page, String locator) {
+    public boolean verifyElementsLocated (String locator) {
         boolean flag = true;
         Locator elements = page.locator(locator);
         int count = elements.count();
@@ -112,7 +115,7 @@ public class ReusableFunctions {
         return flag;
     }
 
-    public void enterText (Page page, String locator,String Value) {
+    public void enterText (String locator,String Value) {
         try{
             page.fill(locator, Value);
         } catch (Exception e) {
@@ -120,7 +123,7 @@ public class ReusableFunctions {
         }
     }
 
-    public void selectRadioBtnValue(Page page, String locator, String value) {
+    public void selectRadioBtnValue(String locator, String value) {
         try{
             logger.info("Locating Radio Button");
             Locator radioBtns = page.locator(locator);
@@ -135,7 +138,7 @@ public class ReusableFunctions {
         }
     }
 
-    public boolean isRadioBtnSelected(Page page, String locator, String value) {
+    public boolean isRadioBtnSelected(String locator, String value) {
         boolean flag = false;
         try{
             logger.info("Locating Radio Button");
@@ -154,7 +157,7 @@ public class ReusableFunctions {
         return flag;
     }
 
-    public void selectCheckBoxs(Page page, String locator, List<String> values) {
+    public void selectCheckBoxs(String locator, List<String> values) {
         try {
             logger.info("Locating Check Boxs");
             Locator checkBox = page.locator(locator);
@@ -173,7 +176,7 @@ public class ReusableFunctions {
         }
     }
 
-    public boolean isCheckBoxSelected(Page page, String locator, List<String> values) {
+    public boolean isCheckBoxSelected(String locator, List<String> values) {
         boolean flag = false;
         try {
             logger.info("Locating Check Boxs");
@@ -194,7 +197,7 @@ public class ReusableFunctions {
         return flag;
     }
 
-    public List<String> getCellValues(Page page, String locator, int cellNo) {
+    public List<String> getCellValues(String locator, int cellNo) {
         List<String> values = new ArrayList<>();
         try{
             Locator table = page.locator(locator);
@@ -208,7 +211,7 @@ public class ReusableFunctions {
         return values;
     }
 
-    public List<String> getCellValues(Page page, String locator, int cellNo, String pageNation) {
+    public List<String> getCellValues(String locator, int cellNo, String pageNation) {
         logger.info("Capture Values of Table");
         Locator pageNationBtn = page.locator(pageNation);
         List<String> values = new ArrayList<>();
@@ -229,5 +232,22 @@ public class ReusableFunctions {
         }
         logger.info("Scanning Complete");
         return values;
+    }
+
+    public void scrolltoElement(String element) {
+        page.waitForSelector(element);
+        ElementHandle handle = page.querySelector(element);
+        if (handle != null) {
+            // runs in page context: smooth = false for predictable test behavior
+            page.evaluate("el => el.scrollIntoView({behavior: 'auto', block: 'center', inline: 'nearest'})", handle);
+        }
+    }
+
+    public void scrollToBottom() {
+        page.evaluate("window.scrollTo(0, document.body.scrollHeight)");
+    }
+
+    public void scrollToTop() {
+        page.evaluate("window.scrollTo(0, 0)");
     }
 }

@@ -53,7 +53,7 @@ public class BaseTest {
         }
         logger.info("Browser initialize");
         page = pf.initBrowser(prop);
-        _reuse = new ReusableFunctions(logger);
+        _reuse = new ReusableFunctions(page, logger);
 
         homePage = new PracticeHomePage(page);
         amazonPage = new HomePage(page, _reuse);

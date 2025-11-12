@@ -9,14 +9,14 @@ import java.util.List;
 
 public class HomePageTest extends BaseTest {
 
-    @Test(enabled = false)
+    @Test(priority = 1, enabled = true)
     public void checkUrl() {
         logger.info("Checking the Url and matching with the Actual Url");
         Assert.assertEquals(testAutomationHomePage.getUrl(), prop.getProperty("url"));
         logger.info("Url Matched");
     }
 
-    @Test(enabled = false)
+    @Test(priority = 2, enabled = true)
     public void testRadioBtn() {
         String gender = "Male";
         logger.info("Testing Radio Button's");
@@ -28,7 +28,7 @@ public class HomePageTest extends BaseTest {
         logger.info(gender+" is Selected");
     }
 
-    @Test(enabled = false)
+    @Test(priority = 3, enabled = true)
     public void testCheckBox() {
         List<String> itemsToSelect = Arrays.asList("monday", "tuesday", "thursday");
         logger.info("Testing Checkbox");
@@ -39,11 +39,16 @@ public class HomePageTest extends BaseTest {
         logger.info(itemsToSelect+" are selected");
     }
 
-    @Test
+    @Test(priority = 4, enabled = true)
     public void testWebTables() {
         String element = "Portable Charger";
         logger.info("Checking if "+element+" is present or not");
         Assert.assertTrue(testAutomationHomePage.verifyItemPresentInTable(element), "Element is not present");
         logger.info(element+" is present");
+    }
+
+    @Test(priority = 5)
+    public void testScrolling() {
+        testAutomationHomePage.scrollingIntoElement();
     }
 }
