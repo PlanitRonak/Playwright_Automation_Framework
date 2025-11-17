@@ -2,6 +2,7 @@ package com.qa.playwright.utilities;
 
 import com.qa.playwright.base.BaseTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 
 import java.io.FileInputStream;
@@ -9,14 +10,18 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class DataProviders extends BaseTest {
-//    Properties prop;
-//    @BeforeClass
-//    public void setUpProperty() throws IOException {
-//        FileInputStream ip = new FileInputStream("./src/test/resources/config/config.properties");
-//        prop = new Properties();
-//        prop.load(ip);
-//    }
+public class DataProviders {
+    private static Properties prop = new Properties();
+
+    // static block loads config once
+    static {
+        try {
+            FileInputStream ip = new FileInputStream("./src/test/resources/config/config.properties");
+            prop.load(ip);
+        } catch (IOException e) {
+            throw new RuntimeException("Failed to load config.properties file.", e);
+        }
+    }
 
     @DataProvider
     public Object[][] getProductData() {

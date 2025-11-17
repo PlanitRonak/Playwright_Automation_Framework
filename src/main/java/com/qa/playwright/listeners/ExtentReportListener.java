@@ -22,10 +22,10 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import static com.qa.playwright.factory.PlaywrightFactory.takeScreenshot;
 
 public class ExtentReportListener implements ITestListener {
-    static Properties property;
+    Properties property;
 
     public ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
-    private ExtentReports extent;
+    private ThreadLocal<ExtentReports> extent = new ThreadLocal<ExtentReports>();
 
     @Override
     public void onStart(ITestContext context) {
@@ -58,25 +58,26 @@ public class ExtentReportListener implements ITestListener {
             }
         }
 
-        extent = new ExtentReports();
+//        extent = new ExtentReports();
+        extent.set(new ExtentReports());
         String timestamp = new SimpleDateFormat("yyyy_MM_dd_HH-mm-ss").format(new Date());
         String reportFile = OUTPUT_FOLDER + projectName + "_" + timestamp + "_" + Thread.currentThread().getId() + ".html";
         ExtentSparkReporter reporter = new ExtentSparkReporter(reportFile);
         reporter.config().setReportName(projectName+" Automation Test Results");
-        extent.attachReporter(reporter);
-        extent.setSystemInfo("System", "WINDOWS");
+        extent.get().attachReporter(reporter);
+        extent.get().setSystemInfo("System", "WINDOWS");
         String browser = context.getCurrentXmlTest().getParameter("browser");
-        extent.setSystemInfo("Broswer", browser);
-        extent.setSystemInfo("Author", "Planit Testing");
+        extent.get().setSystemInfo("Broswer", browser);
+        extent.get().setSystemInfo("Author", "Planit Testing");
 //		extentReports.setSystemInfo("Build", "1.1");
-        extent.setSystemInfo("Team", "QA");
-        extent.setSystemInfo("Customer Name", projectName);
+        extent.get().setSystemInfo("Team", "QA");
+        extent.get().setSystemInfo("Customer Name", projectName);
     }
 
     @Override
     public void onFinish(ITestContext context) {
         System.out.println(("Test Suite is ending!"));
-        extent.flush();
+        extent.get().flush();
         test.remove();
     }
 
@@ -89,7 +90,7 @@ public class ExtentReportListener implements ITestListener {
         String className = qualifiedName.substring(mid + 1, last);
 
         System.out.println(methodName + " started!");
-        ExtentTest extentTest = extent.createTest(result.getMethod().getMethodName(),
+        ExtentTest extentTest = extent.get().createTest(result.getMethod().getMethodName(),
                 result.getMethod().getDescription());
 
         extentTest.assignCategory(result.getTestContext().getSuite().getName());

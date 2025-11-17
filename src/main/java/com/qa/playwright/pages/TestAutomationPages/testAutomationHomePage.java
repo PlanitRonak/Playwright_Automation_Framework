@@ -18,30 +18,31 @@ public class testAutomationHomePage extends BasePage {
     String pageNationBtn = "//ul[@id='pagination']/li";
     String table = "//table[@id='productTable']";
     String tableRows = "//table[@id='productTable']/tbody/tr";
+    String formElement = "//h2[normalize-space()='Form']";
 
     public String getUrl() {
         return page.url();
     }
 
     public void selectGender(String value) {
-        _reuse.selectRadioBtnValue(page, radioBtns, value);
+        _reuse.selectRadioBtnValue(radioBtns, value);
     }
 
     public boolean verifyGenderSelected(String value) {
-        return _reuse.isRadioBtnSelected(page, radioBtns, value);
+        return _reuse.isRadioBtnSelected(radioBtns, value);
     }
 
     public void selectDays(List<String> values) {
-        _reuse.selectCheckBoxs(page, checkBoxs, values);
+        _reuse.selectCheckBoxs(checkBoxs, values);
     }
 
     public boolean verifyDaysSelected(List<String> values) {
-        return _reuse.isCheckBoxSelected(page, checkBoxs, values);
+        return _reuse.isCheckBoxSelected(checkBoxs, values);
     }
 
     public boolean verifyItemPresentInTable(String value) {
         boolean flag = false;
-        List<String> values = _reuse.getCellValues(page, table, 2, pageNationBtn);
+        List<String> values = _reuse.getCellValues(table, 2, pageNationBtn);
         for(String i : values) {
             if(i.equalsIgnoreCase(value)) {
                 flag = true;
@@ -49,5 +50,11 @@ public class testAutomationHomePage extends BasePage {
             }
         }
         return flag;
+    }
+
+    public void scrollingIntoElement() {
+//        _reuse.scrolltoElement(page, formElement);
+        _reuse.scrollToBottom();
+        _reuse.scrollToTop();
     }
 }

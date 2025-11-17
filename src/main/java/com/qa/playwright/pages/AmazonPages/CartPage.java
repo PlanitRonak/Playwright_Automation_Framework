@@ -4,10 +4,12 @@ import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
 import com.qa.playwright.utilities.ReusableFunctions;
 
-public class CartPage extends BasePage {
-
+public class CartPage {
+    private Page page;
+    private ReusableFunctions _reuse;
     public CartPage (Page page, ReusableFunctions _reuse) {
-        super(page, _reuse);
+        this.page = page;
+        this._reuse = _reuse;
     }
 
 //    Locators

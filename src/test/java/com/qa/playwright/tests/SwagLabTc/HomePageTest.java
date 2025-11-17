@@ -2,11 +2,12 @@ package com.qa.playwright.tests.SwagLabTc;
 
 import com.qa.playwright.base.BaseTest;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class HomePageTest extends BaseTest {
-    @BeforeMethod
+    @BeforeClass
     public void login() {
         logger.info("Logging into Application");
         swagloginPage.login(prop.getProperty("username"), prop.getProperty("password"));
@@ -24,7 +25,7 @@ public class HomePageTest extends BaseTest {
         logger.info("Filter Test Case Finished");
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testHover() throws InterruptedException {
         logger.info("Hover Test Case Started");
         Assert.assertTrue(swagLabHomePage.verifyHover());

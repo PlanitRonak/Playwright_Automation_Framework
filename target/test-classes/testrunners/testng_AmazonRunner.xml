@@ -14,10 +14,10 @@
         </classes>
     </test>
 
-<!--    <test name="Amazon Home Page Test_chrome 2">-->
-<!--        <parameter name="browser" value="firefox" />-->
-<!--        <classes>-->
-<!--            <class name="com.qa.playwright.tests.AmazonTc.CartPageTest" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Amazon Home Page Test_chrome 2">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.qa.playwright.tests.AmazonTc.CartPageTest" />
+        </classes>
+    </test>
 </suite>

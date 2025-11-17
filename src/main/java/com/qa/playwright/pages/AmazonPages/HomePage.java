@@ -4,9 +4,13 @@ import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
 import com.qa.playwright.utilities.ReusableFunctions;
 
-public class HomePage extends BasePage {
+public class HomePage {
+    private Page page;
+    private ReusableFunctions _reuse;
     public HomePage(Page page, ReusableFunctions _reuse) {
-        super(page, _reuse);
+//        super(page, _reuse);
+        this.page=page;
+        this._reuse=_reuse;
     }
 
 //    Locators
@@ -16,7 +20,10 @@ public class HomePage extends BasePage {
     private String cartIconNav = "//a[@id='nav-cart']";
     private String cartCount = "//span[@id='nav-cart-count']";
 
+
     public void addToCart() {
+//        if(page.locator())
+//        page.click();
         page.fill(searchBar, "imac");
         page.click(searchIcon);
         page.click(addToCartBtn);

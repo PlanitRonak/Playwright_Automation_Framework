@@ -20,12 +20,12 @@ public class swagLabHomePage extends BasePage {
     String titleOfProduct = "//div[@class='inventory_item'][1]/div[2]//div[@class='inventory_item_name ']";
 
     public void selectOption() {
-        _reuse.selectOption(page, filterDropDown, "Price (low to high)");
+        _reuse.selectOption(filterDropDown, "Price (low to high)");
     }
 
     public boolean verifyFilter() {
         boolean flag = true;
-        if(_reuse.verifyElementsLocated(page, itemPrices)){
+        if(_reuse.verifyElementsLocated(itemPrices)){
             Locator prices = page.locator(itemPrices);
             List<String> list = prices.allTextContents();
             String priceOfFirst =_reuse.getPrice(list.get(0));
@@ -45,7 +45,7 @@ public class swagLabHomePage extends BasePage {
     }
 
     public boolean verifyHover() throws InterruptedException {
-        _reuse.hoverOver(page, titleOfProduct);
+        _reuse.hoverOver(titleOfProduct);
         Thread.sleep(2000);
         return true;
     }
