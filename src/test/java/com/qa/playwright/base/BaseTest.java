@@ -7,6 +7,7 @@ import java.util.Properties;
 import com.qa.playwright.pages.AmazonPages.CartPage;
 import com.qa.playwright.pages.AmazonPages.HomePage;
 import com.qa.playwright.pages.PracticeHomePage;
+import com.qa.playwright.pages.SwagLabPages.swagLabCartPage;
 import com.qa.playwright.pages.SwagLabPages.swagLabHomePage;
 import com.qa.playwright.pages.SwagLabPages.swagLabLoginPage;
 import com.qa.playwright.pages.TestAutomationPages.testAutomationHomePage;
@@ -36,6 +37,7 @@ public class BaseTest {
     protected CartPage amazonCartPage;
     protected swagLabLoginPage swagloginPage;
     protected swagLabHomePage swagLabHomePage;
+    protected swagLabCartPage swagLabCartPage;
     protected testAutomationHomePage testAutomationHomePage;
 
     @Parameters({ "browser" })

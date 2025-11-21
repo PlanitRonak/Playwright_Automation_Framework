@@ -1,0 +1,13 @@
+2025-11-21 16:11:27 INFO  BaseTest:82 - Log4j initialized for this run: 2025_11_21_16-11-26
+2025-11-21 16:11:27 INFO  BaseTest:56 - Browser initialize
+2025-11-21 16:11:39 INFO  BaseTest:12 - Logging into Application
+2025-11-21 16:11:46 INFO  BaseTest:14 - Navigating to HomePage
+2025-11-21 16:11:47 INFO  BaseTest:36 - Add to Cart Test Start
+2025-11-21 16:11:47 INFO  BaseTest:38 - Adding Items to Cart
+2025-11-21 16:11:53 INFO  BaseTest:40 - Navigating to Cart Page
+2025-11-21 16:11:55 INFO  BaseTest:42 - CheckOut
+2025-11-21 16:12:10 INFO  BaseTest:36 - Add to Cart Test Start
+2025-11-21 16:12:10 INFO  BaseTest:38 - Adding Items to Cart
+2025-11-21 16:12:16 INFO  BaseTest:40 - Navigating to Cart Page
+2025-11-21 16:12:18 INFO  BaseTest:42 - CheckOut
+2025-11-21 16:12:32 INFO  BaseTest:68 - Closing browser

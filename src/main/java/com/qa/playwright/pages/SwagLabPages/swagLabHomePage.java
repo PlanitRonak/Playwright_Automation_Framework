@@ -18,6 +18,8 @@ public class swagLabHomePage extends BasePage {
     String filterDropDown = "//select[@class='product_sort_container']";
     String itemPrices = "//div[@class='pricebar']/div";
     String titleOfProduct = "//div[@class='inventory_item'][1]/div[2]//div[@class='inventory_item_name ']";
+    String titlesOfProducts = "//div[@class='inventory_item']/div[2]//div[@class='inventory_item_name ']";
+    String cartBtn = "//a[@class='shopping_cart_link']";
 
     public void selectOption() {
         _reuse.selectOption(filterDropDown, "Price (low to high)");
@@ -53,5 +55,22 @@ public class swagLabHomePage extends BasePage {
     public void logOut() {
         page.click(menuBtn);
         page.click(logoutBtn);
+    }
+
+    public void addToCart(String[] products) throws InterruptedException {
+        Locator titles = page.locator(titlesOfProducts);
+        for (String product : products) {
+            for (int i = 0 ; i < titles.count() ; i++) {
+                if(titles.nth(i).textContent().equalsIgnoreCase(product)) {
+                    titles.nth(i).locator("//parent::a/parent::div/following-sibling::div//button").click();
+                    System.out.println(product);
+                }
+            }
+        }
+    }
+
+    public swagLabCartPage navigateToCartPage() {
+        page.locator(cartBtn).click();
+        return new swagLabCartPage(page, _reuse);
     }
 }
