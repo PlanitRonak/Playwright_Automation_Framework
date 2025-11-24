@@ -4,6 +4,7 @@ import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
 import com.qa.playwright.utilities.ReusableFunctions;
+import org.testng.Assert;
 
 import java.util.List;
 
@@ -62,7 +63,11 @@ public class swagLabHomePage extends BasePage {
         for (String product : products) {
             for (int i = 0 ; i < titles.count() ; i++) {
                 if(titles.nth(i).textContent().equalsIgnoreCase(product)) {
-                    titles.nth(i).locator("//parent::a/parent::div/following-sibling::div//button").click();
+                    Locator addBtn = titles.nth(i).locator("//parent::a/parent::div/following-sibling::div//button");
+                    _reuse.clickElement(addBtn);
+                    if(addBtn.textContent().equals("Add to cart")) {
+                        Assert.fail("Failed to Select Button");
+                    }
                     System.out.println(product);
                 }
             }

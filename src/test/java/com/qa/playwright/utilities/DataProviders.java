@@ -1,13 +1,8 @@
 package com.qa.playwright.utilities;
 
-import com.qa.playwright.base.BaseTest;
-import lombok.Data;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -80,6 +75,7 @@ public class DataProviders {
 
     @DataProvider(name = "swagLabCartData")
     public Object[][] getDetails() throws IOException {
+        sheetName = "Cart Details";
         ExcelUtilities excel = new ExcelUtilities(excelFilePath, sheetName);
         Object[] products = productName(excel);
         sheetName = "Contact Details";
@@ -89,8 +85,24 @@ public class DataProviders {
         for (Object[] row : data) {
             row[row.length-1]=products;
         }
-
-        System.out.println(Arrays.deepToString(data));
         return data;
+    }
+
+    @DataProvider(name = "swagLabLoginCartData")
+    public Object[][] getLoginCartDetails() throws IOException {
+        Object[][] login_data = getCredentials();
+        Object[][] return_data = new Object[login_data.length][login_data[0].length+1];
+        Object[][] cart_details = getDetails();
+        for (int i = 0 ; i < return_data.length ; i++) {
+            for (int j = 0 ; j < return_data[0].length ; j++) {
+                if(j >= return_data[0].length-1) {
+                    return_data[i][j] = cart_details;
+                } else {
+                    return_data[i][j] = login_data[i][j];
+                }
+            }
+        }
+
+        return return_data;
     }
 }

@@ -41,7 +41,7 @@ public class BaseTest {
     protected testAutomationHomePage testAutomationHomePage;
 
     @Parameters({ "browser" })
-    @BeforeClass
+    @BeforeMethod
     public void setup(String browserName) {
         pf = new PlaywrightFactory();
 
@@ -63,7 +63,7 @@ public class BaseTest {
         testAutomationHomePage = new testAutomationHomePage(page, _reuse);
     }
 
-    @AfterClass
+    @AfterMethod
     public void tearDown() {
         logger.info("Closing browser");
         page.context().browser().close();
