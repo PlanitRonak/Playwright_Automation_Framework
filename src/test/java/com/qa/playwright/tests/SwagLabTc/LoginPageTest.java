@@ -14,7 +14,7 @@ public class LoginPageTest extends BaseTest {
         logger.info("Login TestCases started");
         swagloginPage.enterUsername(username);
         swagloginPage.enterPassword(password);
-        logger.info("Entered credentials");
+        logger.info("Entered credentials with "+username+" and "+password);
         swagloginPage.clickLogin();
 //        This will check that the login is successful and also the credentials were valid
         logger.info("Verify login");
