@@ -7,6 +7,7 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.LoadState;
 import com.microsoft.playwright.options.SelectOption;
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +21,14 @@ public class ReusableFunctions {
     public ReusableFunctions(Page page, Logger logger) {
         this.page = page;
         this.logger = logger;
+    }
+
+    public void clickElement(Locator element){
+        if(element.isDisabled()) {
+            Assert.fail(element+" not Clickable");
+        } else {
+            element.click();
+        }
     }
 
     public void selectOption(String dropDown, String value) {

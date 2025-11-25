@@ -1,0 +1,15 @@
+2025-11-21 16:13:58 INFO  BaseTest:82 - Log4j initialized for this run: 2025_11_21_16-13-58
+2025-11-21 16:13:58 INFO  BaseTest:56 - Browser initialize
+2025-11-21 16:14:10 INFO  BaseTest:12 - Logging into Application
+2025-11-21 16:14:17 INFO  BaseTest:14 - Navigating to HomePage
+2025-11-21 16:14:18 INFO  BaseTest:36 - Add to Cart Test Start
+2025-11-21 16:14:18 INFO  BaseTest:38 - Adding Items to Cart
+2025-11-21 16:14:24 INFO  BaseTest:40 - Navigating to Cart Page
+2025-11-21 16:14:26 INFO  BaseTest:42 - CheckOut with Ronak Yadav 401209
+2025-11-21 16:14:36 INFO  BaseTest:44 - Verifying if the price is 103.65 or not.
+2025-11-21 16:14:40 INFO  BaseTest:36 - Add to Cart Test Start
+2025-11-21 16:14:40 INFO  BaseTest:38 - Adding Items to Cart
+2025-11-21 16:14:47 INFO  BaseTest:40 - Navigating to Cart Page
+2025-11-21 16:14:49 INFO  BaseTest:42 - CheckOut with Demo Demo Last Name 401210
+2025-11-21 16:14:59 INFO  BaseTest:44 - Verifying if the price is 103.65 or not.
+2025-11-21 16:15:03 INFO  BaseTest:68 - Closing browser
