@@ -4,8 +4,6 @@ import com.qa.playwright.base.BaseTest;
 import com.qa.playwright.utilities.DataProviders;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class LoginPageTest extends BaseTest {

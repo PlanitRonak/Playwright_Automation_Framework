@@ -3,14 +3,17 @@ package com.qa.playwright.pages.AmazonPages;
 import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
 import com.qa.playwright.utilities.ReusableFunctions;
+import org.apache.log4j.Logger;
 
 public class HomePage {
     private Page page;
     private ReusableFunctions _reuse;
-    public HomePage(Page page, ReusableFunctions _reuse) {
+    private Logger logger;
+    public HomePage(Page page, ReusableFunctions _reuse, Logger logger) {
 //        super(page, _reuse);
         this.page=page;
         this._reuse=_reuse;
+        this.logger = logger;
     }
 
 //    Locators
@@ -36,6 +39,6 @@ public class HomePage {
 
     public CartPage navigateToCart() {
         page.click(cartIconNav);
-        return new CartPage(page, _reuse);
+        return new CartPage(page, _reuse, logger);
     }
 }

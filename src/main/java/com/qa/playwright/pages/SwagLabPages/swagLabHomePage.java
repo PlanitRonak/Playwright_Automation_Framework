@@ -7,11 +7,12 @@ import com.qa.playwright.utilities.ReusableFunctions;
 import org.testng.Assert;
 
 import java.util.List;
+import org.apache.log4j.Logger;
 
 public class swagLabHomePage extends BasePage {
 
-    public swagLabHomePage(Page page, ReusableFunctions _reuse) {
-        super(page, _reuse);
+    public swagLabHomePage(Page page, ReusableFunctions _reuse, Logger logger) {
+        super(page, _reuse, logger);
     }
 
     String menuBtn = "//button[@id='react-burger-menu-btn']";
@@ -22,8 +23,8 @@ public class swagLabHomePage extends BasePage {
     String titlesOfProducts = "//div[@class='inventory_item']/div[2]//div[@class='inventory_item_name ']";
     String cartBtn = "//a[@class='shopping_cart_link']";
 
-    public void selectOption() {
-        _reuse.selectOption(filterDropDown, "Price (low to high)");
+    public void selectOption(String optionLabel) {
+        _reuse.selectOption(filterDropDown, optionLabel);
     }
 
     public boolean verifyFilter() {
@@ -66,6 +67,7 @@ public class swagLabHomePage extends BasePage {
                     Locator addBtn = titles.nth(i).locator("//parent::a/parent::div/following-sibling::div//button");
                     _reuse.clickElement(addBtn);
                     if(addBtn.textContent().equals("Add to cart")) {
+                        logger.error("Failed to Click Add to Cart Button");
                         Assert.fail("Failed to Select Button");
                     }
                     System.out.println(product);
@@ -76,6 +78,6 @@ public class swagLabHomePage extends BasePage {
 
     public swagLabCartPage navigateToCartPage() {
         page.locator(cartBtn).click();
-        return new swagLabCartPage(page, _reuse);
+        return new swagLabCartPage(page, _reuse, logger);
     }
 }

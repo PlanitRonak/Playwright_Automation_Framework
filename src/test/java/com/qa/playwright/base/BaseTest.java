@@ -58,9 +58,9 @@ public class BaseTest {
         _reuse = new ReusableFunctions(page, logger);
 
         homePage = new PracticeHomePage(page);
-        amazonPage = new HomePage(page, _reuse);
-        swagloginPage = new swagLabLoginPage(page, _reuse);
-        testAutomationHomePage = new testAutomationHomePage(page, _reuse);
+        amazonPage = new HomePage(page, _reuse, logger);
+        swagloginPage = new swagLabLoginPage(page, _reuse, logger);
+        testAutomationHomePage = new testAutomationHomePage(page, _reuse, logger);
     }
 
     @AfterMethod

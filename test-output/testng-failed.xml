@@ -11,7 +11,7 @@
         <methods>
           <include name="login"/>
           <include name="setup"/>
-          <include name="testFilter"/>
+          <include name="testAllAccounts" invocation-numbers="2 4 5"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.playwright.tests.SwagLabTc.HomePageTest -->

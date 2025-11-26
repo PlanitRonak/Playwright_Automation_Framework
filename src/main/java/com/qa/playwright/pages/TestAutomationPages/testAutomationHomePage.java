@@ -4,13 +4,14 @@ import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
 import com.qa.playwright.utilities.ReusableFunctions;
+import org.apache.log4j.Logger;
 
 import java.util.List;
 
 public class testAutomationHomePage extends BasePage {
 
-    public testAutomationHomePage(Page page, ReusableFunctions _reuse) {
-        super(page, _reuse);
+    public testAutomationHomePage(Page page, ReusableFunctions _reuse, Logger logger) {
+        super(page, _reuse, logger);
     }
 
     String radioBtns = "//input[@type='radio']";
