@@ -15,7 +15,7 @@ public class HomePageTest extends BaseTest {
         swagLabHomePage = swagloginPage.navigateToHomePage();
     }
 
-    @Test(priority = 1, enabled = false)
+    @Test(priority = 1, enabled = true)
     public void testFilter() {
         logger.info("Filter Test Case Started");
         logger.info("Selecting Option");
@@ -30,14 +30,14 @@ public class HomePageTest extends BaseTest {
         logger.info("Filter Test Case Finished");
     }
 
-    @Test(priority = 2, enabled = false)
+    @Test(priority = 2, enabled = true)
     public void testHover() throws InterruptedException {
         logger.info("Hover Test Case Started");
         Assert.assertTrue(swagLabHomePage.verifyHover());
         logger.info("Hover Test Case Finished");
     }
 
-    @Test(dataProvider = "swagLabCartData", dataProviderClass = DataProviders.class, enabled = false)
+    @Test(dataProvider = "swagLabCartData", dataProviderClass = DataProviders.class, enabled = true)
     public void testCart(String firstName, String lastName, String zip, String total, String[] products) throws InterruptedException {
         logger.info("Add to Cart Test Start");
         boolean flag = false;

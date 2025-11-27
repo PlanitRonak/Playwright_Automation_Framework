@@ -1,0 +1,5 @@
+2025-11-27 09:23:24 INFO  BaseTest:82 - Log4j initialized for this run: 2025_11_27_09-23-24
+2025-11-27 09:23:24 INFO  BaseTest:56 - Browser initialize
+2025-11-27 09:23:31 INFO  BaseTest:39 - Logging into website using locked_out_user and secret_sauce
+2025-11-27 09:23:37 ERROR BaseTest:66 - Login Failed
+2025-11-27 09:23:37 INFO  BaseTest:68 - Closing browser
