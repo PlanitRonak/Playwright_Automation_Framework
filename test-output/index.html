@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Test_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Test Suite</span>
+              <span class="suite-name border-failed">Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods failed suite-Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods failed suite-Test_Suite"> (show)</a> <!-- show-methods failed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.HomePageTest" class="method navigator-link" hash-for-method="testAllAccounts(error_user, secret_sauce, valid)">testAllAccounts(error_user, secret_sauce, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.HomePageTest" class="method navigator-link" hash-for-method="testAllAccounts(problem_user, secret_sauce, valid)">testAllAccounts(problem_user, secret_sauce, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.HomePageTest" class="method navigator-link" hash-for-method="testAllAccounts(visual_user, secret_sauce, valid)">testAllAccounts(visual_user, secret_sauce, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,32 +127,17 @@
                     <div class="method-list-content passed suite-Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.LoginPageTest" class="method navigator-link" hash-for-method="testLogin(locked_out_user, secret_sauce, invalid)">testLogin(locked_out_user, secret_sauce, invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.HomePageTest" class="method navigator-link" hash-for-method="testAllAccounts(standard_user, secret_sauce, valid)">testAllAccounts(standard_user, secret_sauce, valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.LoginPageTest" class="method navigator-link" hash-for-method="testLogin(error_user, secret_sauce, valid)">testLogin(error_user, secret_sauce, valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.HomePageTest" class="method navigator-link" hash-for-method="testAllAccounts(locked_out_user, secret_sauce, invalid)">testAllAccounts(locked_out_user, secret_sauce, invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.LoginPageTest" class="method navigator-link" hash-for-method="testLogin(problem_user, secret_sauce, valid)">testLogin(problem_user, secret_sauce, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.LoginPageTest" class="method navigator-link" hash-for-method="testLogin(visual_user, secret_sauce, valid)">testLogin(visual_user, secret_sauce, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.LoginPageTest" class="method navigator-link" hash-for-method="testLogin(performance_glitch_user, secret_sauce, valid)">testLogin(performance_glitch_user, secret_sauce, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.LoginPageTest" class="method navigator-link" hash-for-method="testLogin(standard_user, secret_sauce, valid)">testLogin(standard_user, secret_sauce, valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.playwright.tests.SwagLabTc.HomePageTest" class="method navigator-link" hash-for-method="testAllAccounts(performance_glitch_user, secret_sauce, valid)">testAllAccounts(performance_glitch_user, secret_sauce, valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Test_Suite -->
@@ -143,58 +152,108 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Test_Suite" class="panel Test_Suite">
-          <div class="suite-Test_Suite-class-passed">
+          <div class="suite-Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.playwright.tests.SwagLabTc.LoginPageTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.playwright.tests.SwagLabTc.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLogin(locked_out_user, secret_sauce, invalid)">
-                  </a> <!-- testLogin(locked_out_user, secret_sauce, invalid) -->
-                  <span class="method-name">testLogin</span>
+                  <a name="testAllAccounts(error_user, secret_sauce, valid)">
+                  </a> <!-- testAllAccounts(error_user, secret_sauce, valid) -->
+                  <span class="method-name">testAllAccounts</span>
+                  <span class="parameters">(error_user,secret_sauce,valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Filter Not Applied expected [true] but found [false]
+	at com.qa.playwright.tests.SwagLabTc.HomePageTest.testFilter(HomePageTest.java:29)
+	at com.qa.playwright.tests.SwagLabTc.HomePageTest.testAllAccounts(HomePageTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+	at java.base/java.util.concurrent.FutureTask.&lt;init&gt;(FutureTask.java:132)
+	at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+	at java.base/java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:274)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllAccounts(problem_user, secret_sauce, valid)">
+                  </a> <!-- testAllAccounts(problem_user, secret_sauce, valid) -->
+                  <span class="method-name">testAllAccounts</span>
+                  <span class="parameters">(problem_user,secret_sauce,valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Filter Not Applied expected [true] but found [false]
+	at com.qa.playwright.tests.SwagLabTc.HomePageTest.testFilter(HomePageTest.java:29)
+	at com.qa.playwright.tests.SwagLabTc.HomePageTest.testAllAccounts(HomePageTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+	at java.base/java.util.concurrent.FutureTask.&lt;init&gt;(FutureTask.java:132)
+	at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+	at java.base/java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:274)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllAccounts(visual_user, secret_sauce, valid)">
+                  </a> <!-- testAllAccounts(visual_user, secret_sauce, valid) -->
+                  <span class="method-name">testAllAccounts</span>
+                  <span class="parameters">(visual_user,secret_sauce,valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Filter Not Applied expected [true] but found [false]
+	at com.qa.playwright.tests.SwagLabTc.HomePageTest.testFilter(HomePageTest.java:29)
+	at com.qa.playwright.tests.SwagLabTc.HomePageTest.testAllAccounts(HomePageTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+	at java.base/java.util.concurrent.FutureTask.&lt;init&gt;(FutureTask.java:132)
+	at java.base/java.util.concurrent.AbstractExecutorService.newTaskFor(AbstractExecutorService.java:113)
+	at java.base/java.util.concurrent.AbstractExecutorService.invokeAll(AbstractExecutorService.java:274)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-failed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.playwright.tests.SwagLabTc.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllAccounts(standard_user, secret_sauce, valid)">
+                  </a> <!-- testAllAccounts(standard_user, secret_sauce, valid) -->
+                  <span class="method-name">testAllAccounts</span>
+                  <span class="parameters">(standard_user,secret_sauce,valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllAccounts(locked_out_user, secret_sauce, invalid)">
+                  </a> <!-- testAllAccounts(locked_out_user, secret_sauce, invalid) -->
+                  <span class="method-name">testAllAccounts</span>
                   <span class="parameters">(locked_out_user,secret_sauce,invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLogin(error_user, secret_sauce, valid)">
-                  </a> <!-- testLogin(error_user, secret_sauce, valid) -->
-                  <span class="method-name">testLogin</span>
-                  <span class="parameters">(error_user,secret_sauce,valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogin(problem_user, secret_sauce, valid)">
-                  </a> <!-- testLogin(problem_user, secret_sauce, valid) -->
-                  <span class="method-name">testLogin</span>
-                  <span class="parameters">(problem_user,secret_sauce,valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogin(visual_user, secret_sauce, valid)">
-                  </a> <!-- testLogin(visual_user, secret_sauce, valid) -->
-                  <span class="method-name">testLogin</span>
-                  <span class="parameters">(visual_user,secret_sauce,valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogin(performance_glitch_user, secret_sauce, valid)">
-                  </a> <!-- testLogin(performance_glitch_user, secret_sauce, valid) -->
-                  <span class="method-name">testLogin</span>
+                  <a name="testAllAccounts(performance_glitch_user, secret_sauce, valid)">
+                  </a> <!-- testAllAccounts(performance_glitch_user, secret_sauce, valid) -->
+                  <span class="method-name">testAllAccounts</span>
                   <span class="parameters">(performance_glitch_user,secret_sauce,valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogin(standard_user, secret_sauce, valid)">
-                  </a> <!-- testLogin(standard_user, secret_sauce, valid) -->
-                  <span class="method-name">testLogin</span>
-                  <span class="parameters">(standard_user,secret_sauce,valid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -215,7 +274,12 @@
   &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Swag Lab Login Page Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.playwright.tests.SwagLabTc.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.playwright.tests.SwagLabTc.HomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testAllAccounts&quot;/&gt;
+          &lt;exclude name=&quot;login&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.playwright.tests.SwagLabTc.HomePageTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Swag Lab Login Page Test --&gt;
 &lt;/suite&gt; &lt;!-- Test Suite --&gt;
@@ -257,34 +321,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLogin')
-data.setCell(0, 2, 'com.qa.playwright.tests.SwagLabTc.LoginPageTest')
-data.setCell(0, 3, 15212);
+data.setCell(0, 1, 'testAllAccounts')
+data.setCell(0, 2, 'com.qa.playwright.tests.SwagLabTc.HomePageTest')
+data.setCell(0, 3, 49873);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testLogin')
-data.setCell(1, 2, 'com.qa.playwright.tests.SwagLabTc.LoginPageTest')
-data.setCell(1, 3, 10261);
+data.setCell(1, 1, 'testAllAccounts')
+data.setCell(1, 2, 'com.qa.playwright.tests.SwagLabTc.HomePageTest')
+data.setCell(1, 3, 34915);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLogin')
-data.setCell(2, 2, 'com.qa.playwright.tests.SwagLabTc.LoginPageTest')
-data.setCell(2, 3, 10255);
+data.setCell(2, 1, 'testAllAccounts')
+data.setCell(2, 2, 'com.qa.playwright.tests.SwagLabTc.HomePageTest')
+data.setCell(2, 3, 8247);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testLogin')
-data.setCell(3, 2, 'com.qa.playwright.tests.SwagLabTc.LoginPageTest')
-data.setCell(3, 3, 10245);
+data.setCell(3, 1, 'testAllAccounts')
+data.setCell(3, 2, 'com.qa.playwright.tests.SwagLabTc.HomePageTest')
+data.setCell(3, 3, 8229);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testLogin')
-data.setCell(4, 2, 'com.qa.playwright.tests.SwagLabTc.LoginPageTest')
-data.setCell(4, 3, 10200);
+data.setCell(4, 1, 'testAllAccounts')
+data.setCell(4, 2, 'com.qa.playwright.tests.SwagLabTc.HomePageTest')
+data.setCell(4, 3, 8211);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testLogin')
-data.setCell(5, 2, 'com.qa.playwright.tests.SwagLabTc.LoginPageTest')
-data.setCell(5, 3, 6136);
+data.setCell(5, 1, 'testAllAccounts')
+data.setCell(5, 2, 'com.qa.playwright.tests.SwagLabTc.HomePageTest')
+data.setCell(5, 3, 6125);
 window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Test_Suite">
               </div> <!-- times-div-Test_Suite -->
             </div> <!-- times-div -->
@@ -299,13 +363,17 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.qa.playwright.tests.SwagLabTc.LoginPageTest</span>
+              <span class="ignored-class-name">com.qa.playwright.tests.SwagLabTc.HomePageTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">testPricesForDifferentAcc</span>
+                <span class="ignored-method-name">testFilter</span>
+                <br/>
+                <span class="ignored-method-name">testCart</span>
+                <br/>
+                <span class="ignored-method-name">testHover</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -317,78 +385,84 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.playwright.tests.SwagLabTc.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.playwright.tests.SwagLabTc.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testLogin(standard_user, secret_sauce, valid)</span>
-                <span class="method-start">14494 ms</span>
+                <span class="method-name">testAllAccounts(standard_user, secret_sauce, valid)</span>
+                <span class="method-start">19651 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24763 ms</span>
+                <span class="method-start">54570 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">25137 ms</span>
+                <span class="method-start">54984 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testLogin(locked_out_user, secret_sauce, invalid)</span>
-                <span class="method-start">32161 ms</span>
+                <span class="method-name">testAllAccounts(locked_out_user, secret_sauce, invalid)</span>
+                <span class="method-start">62884 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38299 ms</span>
+                <span class="method-start">69011 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">38590 ms</span>
+                <span class="method-start">69364 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testLogin(problem_user, secret_sauce, valid)</span>
-                <span class="method-start">45693 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAllAccounts(problem_user, secret_sauce, valid)</span>
+                <span class="method-start">76411 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">55949 ms</span>
+                <span class="method-start">84944 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">56303 ms</span>
+                <span class="method-start">85252 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testLogin(performance_glitch_user, secret_sauce, valid)</span>
-                <span class="method-start">63360 ms</span>
+                <span class="method-name">testAllAccounts(performance_glitch_user, secret_sauce, valid)</span>
+                <span class="method-start">92535 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">78575 ms</span>
+                <span class="method-start">142413 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">78892 ms</span>
+                <span class="method-start">142789 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testLogin(error_user, secret_sauce, valid)</span>
-                <span class="method-start">86198 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAllAccounts(error_user, secret_sauce, valid)</span>
+                <span class="method-start">150261 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">96398 ms</span>
+                <span class="method-start">158751 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">96770 ms</span>
+                <span class="method-start">159032 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testLogin(visual_user, secret_sauce, valid)</span>
-                <span class="method-start">103569 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAllAccounts(visual_user, secret_sauce, valid)</span>
+                <span class="method-start">166189 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">113814 ms</span>
+                <span class="method-start">174687 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

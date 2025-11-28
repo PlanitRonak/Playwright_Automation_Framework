@@ -1,0 +1,8 @@
+2025-11-28 15:29:11 INFO  BaseTest:82 - Log4j initialized for this run: 2025_11_28_15-29-11
+2025-11-28 15:29:11 INFO  BaseTest:56 - Browser initialize
+2025-11-28 15:29:19 INFO  BaseTest:39 - Logging into website using error_user and secret_sauce
+2025-11-28 15:29:25 INFO  BaseTest:20 - Filter Test Case Started
+2025-11-28 15:29:25 INFO  BaseTest:21 - Selecting Option
+2025-11-28 15:29:27 INFO  BaseTest:23 - Checking if the Filter is Applied or not
+2025-11-28 15:29:27 ERROR BaseTest:27 - Filter is not applied
+2025-11-28 15:29:27 INFO  BaseTest:68 - Closing browser

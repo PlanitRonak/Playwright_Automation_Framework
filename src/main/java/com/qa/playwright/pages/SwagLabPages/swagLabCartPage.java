@@ -5,10 +5,12 @@ import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
 import com.qa.playwright.utilities.ReusableFunctions;
 
+import org.apache.log4j.Logger;
+
 public class swagLabCartPage extends BasePage {
 
-    public swagLabCartPage(Page page, ReusableFunctions _reuse) {
-        super(page, _reuse);
+    public swagLabCartPage(Page page, ReusableFunctions _reuse, Logger logger) {
+        super(page, _reuse, logger);
     }
 
     String checkoutBtn = "//button[@id='checkout']";
@@ -37,6 +39,6 @@ public class swagLabCartPage extends BasePage {
     public swagLabHomePage navigateToHome() {
         page.locator(finish).click();
         page.locator(backHome).click();
-        return new swagLabHomePage(page, _reuse);
+        return new swagLabHomePage(page, _reuse, logger);
     }
 }
