@@ -1,0 +1,17 @@
+2025-11-28 15:26:49 INFO  BaseTest:82 - Log4j initialized for this run: 2025_11_28_15-26-49
+2025-11-28 15:26:49 INFO  BaseTest:56 - Browser initialize
+2025-11-28 15:27:08 INFO  BaseTest:39 - Logging into website using standard_user and secret_sauce
+2025-11-28 15:27:14 INFO  BaseTest:20 - Filter Test Case Started
+2025-11-28 15:27:14 INFO  BaseTest:21 - Selecting Option
+2025-11-28 15:27:17 INFO  BaseTest:23 - Checking if the Filter is Applied or not
+2025-11-28 15:27:17 INFO  BaseTest:25 - Filter is Applied
+2025-11-28 15:27:17 INFO  BaseTest:30 - Filter Test Case Finished
+2025-11-28 15:27:17 INFO  BaseTest:35 - Hover Test Case Started
+2025-11-28 15:27:21 INFO  BaseTest:37 - Hover Test Case Finished
+2025-11-28 15:27:21 INFO  BaseTest:42 - Add to Cart Test Start
+2025-11-28 15:27:21 INFO  BaseTest:44 - Adding Items to Cart
+2025-11-28 15:27:27 INFO  BaseTest:46 - Navigating to Cart Page
+2025-11-28 15:27:29 INFO  BaseTest:48 - CheckOut with Demo Demo last Name 401209
+2025-11-28 15:27:39 INFO  BaseTest:50 - Verifying if the price is 103.65 or not.
+2025-11-28 15:27:43 INFO  BaseTest:53 - Add to Cart test Ended
+2025-11-28 15:27:43 INFO  BaseTest:68 - Closing browser

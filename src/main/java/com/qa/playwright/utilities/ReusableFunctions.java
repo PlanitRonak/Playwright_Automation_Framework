@@ -176,6 +176,10 @@ public class ReusableFunctions {
                     if (Value.equalsIgnoreCase(value)) {
                         logger.info("Selecting "+Value);
                         checkBox.nth(i).click();
+                        if(!checkBox.nth(i).isChecked()) {
+                            logger.error("Failed to Check the checkbox");
+                            Assert.fail("Failed to Select the checkbox");
+                        }
                         break;
                     }
                 }
