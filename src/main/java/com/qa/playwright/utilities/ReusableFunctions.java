@@ -6,6 +6,8 @@ import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.LoadState;
 import com.microsoft.playwright.options.SelectOption;
+import com.qa.playwright.pages.SwagLabPages.swagLabCartPage;
+import com.qa.playwright.pages.SwagLabPages.swagLabHomePage;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 
@@ -262,5 +264,19 @@ public class ReusableFunctions {
 
     public void scrollToTop() {
         page.evaluate("window.scrollTo(0, 0)");
+    }
+
+    public void validateCart(swagLabHomePage HomePage, swagLabCartPage CartPage, String[] products, String firstName, String lastName, String zip, String total) throws InterruptedException {
+        logger.info("Add to Cart Test Start");
+        logger.info("Adding Items to Cart");
+        HomePage.addToCart(products);
+        logger.info("Navigating to Cart Page");
+        CartPage = HomePage.navigateToCartPage();
+        logger.info("CheckOut with "+firstName+" "+lastName+" "+zip);
+        CartPage.checkOut(firstName, lastName, zip);
+        logger.info("Verifying if the price is "+total+" or not.");
+        Assert.assertEquals(CartPage.getPrice(), total, "Price is Different");
+        HomePage = CartPage.navigateToHome();
+        logger.info("Add to Cart test Ended");
     }
 }

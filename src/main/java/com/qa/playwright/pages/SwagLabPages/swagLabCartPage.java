@@ -30,10 +30,8 @@ public class swagLabCartPage extends BasePage {
         page.locator(continueBtn).click();
     }
 
-    public boolean verifyPrice(String price) {
-        String priceTitle = page.locator(priceTag).textContent();
-        String itemPrice = _reuse.getPrice(priceTitle);
-        return itemPrice.equals(price);
+    public String getPrice() {
+        return _reuse.getPrice(page.locator(priceTag).textContent());
     }
 
     public swagLabHomePage navigateToHome() {

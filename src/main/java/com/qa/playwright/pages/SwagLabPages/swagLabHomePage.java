@@ -66,11 +66,12 @@ public class swagLabHomePage extends BasePage {
                 if(titles.nth(i).textContent().equalsIgnoreCase(product)) {
                     Locator addBtn = titles.nth(i).locator("//parent::a/parent::div/following-sibling::div//button");
                     _reuse.clickElement(addBtn);
-                    if(addBtn.textContent().equals("Add to cart")) {
+                    if(addBtn.innerHTML().equalsIgnoreCase("Remove")) {
+                        System.out.println(product);
+                    } else {
                         logger.error("Failed to Click Add to Cart Button");
                         Assert.fail("Failed to Select Button");
                     }
-                    System.out.println(product);
                 }
             }
         }
