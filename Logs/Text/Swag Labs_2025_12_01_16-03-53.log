@@ -1,0 +1,11 @@
+2025-12-01 16:03:53 INFO  BaseTest:82 - Log4j initialized for this run: 2025_12_01_16-03-53
+2025-12-01 16:03:53 INFO  BaseTest:56 - Browser initialize
+2025-12-01 16:04:00 INFO  BaseTest:12 - Logging into Application
+2025-12-01 16:04:00 INFO  BaseTest:39 - Logging into website using visual_user and secret_sauce
+2025-12-01 16:04:06 INFO  BaseTest:14 - Navigating to HomePage
+2025-12-01 16:04:06 INFO  BaseTest:46 - Add to Cart Test Start
+2025-12-01 16:04:06 INFO  BaseTest:48 - Adding Items to Cart
+2025-12-01 16:04:10 INFO  BaseTest:50 - Navigating to Cart Page
+2025-12-01 16:04:12 INFO  BaseTest:52 - CheckOut with Ronak Yadav 401209
+2025-12-01 16:04:23 INFO  BaseTest:54 - Verifying if the price is 103.65 or not.
+2025-12-01 16:04:23 INFO  BaseTest:68 - Closing browser

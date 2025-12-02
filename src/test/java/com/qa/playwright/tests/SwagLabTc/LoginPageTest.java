@@ -22,7 +22,6 @@ public class LoginPageTest extends BaseTest {
         if(loginStatus) {
             logger.info("Login Successful");
             swagLabHomePage = swagloginPage.navigateToHomePage();
-            swagLabHomePage.logOut();
         } else {
             logger.error("Login Unsuccessful");
         }
@@ -45,7 +44,12 @@ public class LoginPageTest extends BaseTest {
             if(loginStatus) {
                 logger.info("Login successful");
                 swagLabHomePage = swagloginPage.navigateToHomePage();
-                testCart((String) user[0],(String) user[1],(String) user[2],(String) user[3], (String[]) user[4]);
+                String firstName = (String) user[0];
+                String lastName = (String) user[1];
+                String zip = (String) user[2];
+                String total = (String) user[3];
+                String[] products = (String[]) user[4];
+                _reuse.validateCart(swagLabHomePage, swagLabCartPage, products, firstName, lastName, zip, total);
                 swagLabHomePage.logOut();
             } else {
                 logger.error("Login Unsuccessful");
@@ -54,17 +58,7 @@ public class LoginPageTest extends BaseTest {
         }
     }
 
-    public void testCart(String firstName, String lastName, String zip, String total, String[] products) throws InterruptedException {
-        logger.info("Add to Cart Test Start");
-        logger.info("Adding Items to Cart");
-        swagLabHomePage.addToCart(products);
-        logger.info("Navigating to Cart Page");
-        swagLabCartPage = swagLabHomePage.navigateToCartPage();
-        logger.info("CheckOut with "+firstName+" "+lastName+" "+zip);
-        swagLabCartPage.checkOut(firstName, lastName, zip);
-        logger.info("Verifying if the price is "+total+" or not.");
-        Assert.assertTrue(swagLabCartPage.verifyPrice(total), "Price is Different");
-        swagLabHomePage = swagLabCartPage.navigateToHome();
-        logger.info("Add to Cart test Ended");
-    }
+//    public void testCart(String firstName, String lastName, String zip, String total, String[] products) throws InterruptedException {
+//
+//    }
 }

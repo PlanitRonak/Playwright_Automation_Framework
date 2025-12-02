@@ -11,13 +11,7 @@
         <parameter name="browser" value="chrome" />
         <classes>
 <!--            <class name="com.qa.playwright.tests.SwagLabTc.LoginPageTest" />-->
-<!--            <class name="com.qa.playwright.tests.SwagLabTc.HomePageTest" />-->
-            <class name="com.qa.playwright.tests.SwagLabTc.HomePageTest">
-                <methods>
-                    <exclude name="login"/>
-                    <include name="testAllAccounts"/>
-                </methods>
-            </class>
+            <class name="com.qa.playwright.tests.SwagLabTc.HomePageTest" />
         </classes>
     </test>
 </suite>

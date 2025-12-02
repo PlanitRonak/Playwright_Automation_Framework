@@ -7,14 +7,13 @@
   <test thread-count="3" parallel="tests" name="Swag Lab Login Page Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.qa.playwright.tests.SwagLabTc.HomePageTest">
+      <class name="com.qa.playwright.tests.SwagLabTc.LoginPageTest">
         <methods>
-          <include name="login"/>
           <include name="setup"/>
-          <include name="testAllAccounts" invocation-numbers="2 4 5"/>
+          <include name="testPricesForDifferentAcc" invocation-numbers="2 4 5"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.playwright.tests.SwagLabTc.HomePageTest -->
+      </class> <!-- com.qa.playwright.tests.SwagLabTc.LoginPageTest -->
     </classes>
   </test> <!-- Swag Lab Login Page Test(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

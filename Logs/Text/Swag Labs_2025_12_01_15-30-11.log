@@ -1,0 +1,8 @@
+2025-12-01 15:30:11 INFO  BaseTest:82 - Log4j initialized for this run: 2025_12_01_15-30-11
+2025-12-01 15:30:11 INFO  BaseTest:56 - Browser initialize
+2025-12-01 15:30:21 INFO  BaseTest:12 - Logging into Application
+2025-12-01 15:30:21 INFO  BaseTest:39 - Logging into website using standard_user and secret_sauce
+2025-12-01 15:30:28 INFO  BaseTest:14 - Navigating to HomePage
+2025-12-01 15:30:28 INFO  BaseTest:38 - Hover Test Case Started
+2025-12-01 15:30:32 INFO  BaseTest:40 - Hover Test Case Finished
+2025-12-01 15:30:32 INFO  BaseTest:68 - Closing browser
