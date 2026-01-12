@@ -67,6 +67,22 @@ public class ReusableFunctions {
         page.keyboard().press(key);
     }
 
+    /**
+     * Presses a key on the keyboard with logging and error handling.
+     * This is a reusable generic function to simulate pressing any key from the keyboard.
+     * @param key The key to press (e.g., "Enter", "a", "Control+a", "Tab")
+     */
+    public void pressKey(String key) {
+        try {
+            logger.info("Pressing key: " + key);
+            page.keyboard().press(key);
+            logger.info("Successfully pressed key: " + key);
+        } catch (Exception e) {
+            logger.error("Error while pressing key: " + key + ". Error: " + e.getMessage());
+            throw new RuntimeException("Failed to press key: " + key, e);
+        }
+    }
+
     public void sendKeys(String locator, String value) {
         try {
             page.click(locator);
@@ -278,5 +294,25 @@ public class ReusableFunctions {
         Assert.assertEquals(CartPage.getPrice(), total, "Price is Different");
         HomePage = CartPage.navigateToHome();
         logger.info("Add to Cart test Ended");
+    }
+
+    public boolean verifySearch(String Locator, String productName) {
+        Locator elements = page.locator(Locator);
+        boolean flag = false;
+        logger.info("Verifying Elements");
+        for (int i = 0 ; i < elements.count() ; i++) {
+            if (elements.nth(i).textContent().contains(productName)) flag = true;
+        }
+        return flag;
+    }
+
+    public void addToCart(List<String> Items, Locator homePageItems) {
+        Items.forEach(item -> {
+            for(int i = 0 ; i < homePageItems.count() ; i++) {
+                if(homePageItems.nth(i).textContent().equals(item)) {
+                    homePageItems.nth(i).locator("xpath=following-sibling::div[@class='addtocart_box_custom']//button").click();
+                }
+            }
+        });
     }
 }

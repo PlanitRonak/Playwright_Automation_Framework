@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite" parallel="tests" thread-count="3"><!--   for parallel testing -->
+
+    <listeners>
+        <listener class-name="com.qa.playwright.listeners.ExtentReportListener" />
+    </listeners>
+
+
+    <test name="Open Cart Home Page Test_chrome 1">
+        <parameter name="browser" value="chromium" />
+        <classes>
+            <class name="com.qa.playwright.tests.InstaxTc.HomePageTest" />
+        </classes>
+    </test>
+</suite>

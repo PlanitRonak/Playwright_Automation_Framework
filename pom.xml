@@ -104,10 +104,11 @@
         <configuration>
           <testFailureIgnore>true</testFailureIgnore>
           <suiteXmlFiles>
-            <suiteXmlFile>testrunners/testng_AmazonRunner.xml</suiteXmlFile>
+            <!-- <suiteXmlFile>testrunners/testng_AmazonRunner.xml</suiteXmlFile>
             <suiteXmlFile>testrunners/testng_regressions.xml</suiteXmlFile>
             <suiteXmlFile>testrunners/testng_SwagLabRunner.xml</suiteXmlFile>
-            <suiteXmlFile>testrunners/testng_TestAutomationRunner.xml</suiteXmlFile>
+            <suiteXmlFile>testrunners/testng_TestAutomationRunner.xml</suiteXmlFile> -->
+            <suiteXmlFile>testrunners/testng_InstaxRunner.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
