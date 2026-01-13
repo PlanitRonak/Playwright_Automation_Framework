@@ -2,8 +2,8 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-30T04:55:48Z" name="Open Cart Test Regression PW Suite" finished-at="2025-10-30T04:55:48Z" duration-ms="0">
+  <suite started-at="2026-01-13T12:01:19 IST" name="Test Suite" finished-at="2026-01-13T12:01:19 IST" duration-ms="0">
     <groups>
     </groups>
-  </suite> <!-- Open Cart Test Regression PW Suite -->
+  </suite> <!-- Test Suite -->
 </testng-results>

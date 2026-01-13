@@ -1,0 +1,11 @@
+com\qa\playwright\base\BaseTest.class
+com\qa\playwright\tests\SwagLabTc\LoginPageTest.class
+com\qa\playwright\tests\AmazonTc\HomePageTest.class
+com\qa\playwright\tests\LoginPageTest.class
+com\qa\playwright\utilities\ExcelUtilities.class
+com\qa\playwright\tests\TestAutomationTc\HomePageTest.class
+com\qa\playwright\tests\InstaxTc\HomePageTest.class
+com\qa\playwright\tests\SwagLabTc\HomePageTest.class
+com\qa\playwright\utilities\DataProviders.class
+com\qa\playwright\tests\AmazonTc\CartPageTest.class
+com\qa\playwright\tests\HomePageTest.class

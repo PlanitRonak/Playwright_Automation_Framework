@@ -1,5 +1,14 @@
+C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\base\BasePage.java
 C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\constants\AppConstants.java
 C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\factory\PlaywrightFactory.java
 C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\listeners\ExtentReportListener.java
-C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\pages\HomePage.java
+C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\pages\AmazonPages\CartPage.java
+C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\pages\AmazonPages\HomePage.java
+C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\pages\Instax\instaxHomePage.java
 C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\pages\LoginPage.java
+C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\pages\PracticeHomePage.java
+C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\pages\SwagLabPages\swagLabCartPage.java
+C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\pages\SwagLabPages\swagLabHomePage.java
+C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\pages\SwagLabPages\swagLabLoginPage.java
+C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\pages\TestAutomationPages\testAutomationHomePage.java
+C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\src\main\java\com\qa\playwright\utilities\ReusableFunctions.java

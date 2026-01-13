@@ -1,0 +1,6 @@
+2026-01-13 11:42:40 INFO  BaseTest:85 - Log4j initialized for this run: 2026_01_13_11-42-40
+2026-01-13 11:42:40 INFO  BaseTest:58 - Browser initialize
+2026-01-13 11:42:52 INFO  BaseTest:21 - Add to Cart Test Started.
+2026-01-13 11:43:03 INFO  BaseTest:53 - Items added
+2026-01-13 11:43:03 INFO  BaseTest:23 - Add to Cart test Ended.
+2026-01-13 11:43:03 INFO  BaseTest:71 - Closing browser

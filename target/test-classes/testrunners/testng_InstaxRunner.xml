@@ -7,7 +7,6 @@
         <listener class-name="com.qa.playwright.listeners.ExtentReportListener" />
     </listeners>
 
-
     <test name="Open Cart Home Page Test_chrome 1">
         <parameter name="browser" value="chromium" />
         <classes>
