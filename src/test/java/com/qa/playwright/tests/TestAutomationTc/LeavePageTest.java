@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import java.util.Arrays;
 import java.util.List;
 
-public class HomePageTest extends BaseTest {
+public class LeavePageTest extends BaseTest {
 
     @Test(priority = 1, enabled = true)
     public void checkUrl() {

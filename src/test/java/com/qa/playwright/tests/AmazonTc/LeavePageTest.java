@@ -4,7 +4,7 @@ import com.qa.playwright.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class HomePageTest extends BaseTest {
+public class LeavePageTest extends BaseTest {
 
     @Test
     public void homePageAddToCart() throws InterruptedException {

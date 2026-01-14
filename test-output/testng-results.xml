@@ -6,8 +6,8 @@
     <groups>
     </groups>
     <test started-at="2026-01-09T16:00:06 IST" name="Swag Lab Login Page Test" finished-at="2026-01-09T16:01:32 IST" duration-ms="86503">
-      <class name="com.qa.playwright.tests.SwagLabTc.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.HomePageTest@21de60b4]" started-at="2026-01-09T16:00:07 IST" name="setup" finished-at="2026-01-09T16:00:27 IST" duration-ms="20055" status="PASS">
+      <class name="com.qa.playwright.tests.SwagLabTc.LeavePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@21de60b4]" started-at="2026-01-09T16:00:07 IST" name="setup" finished-at="2026-01-09T16:00:27 IST" duration-ms="20055" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.HomePageTest@21de60b4]" started-at="2026-01-09T16:00:27 IST" name="testCart" data-provider="swagLabCartData" finished-at="2026-01-09T16:00:56 IST" duration-ms="28724" status="PASS">
+        <test-method signature="testCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@21de60b4]" started-at="2026-01-09T16:00:27 IST" name="testCart" data-provider="swagLabCartData" finished-at="2026-01-09T16:00:56 IST" duration-ms="28724" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,11 +49,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.playwright.tests.SwagLabTc.HomePageTest@21de60b4]" started-at="2026-01-09T16:00:56 IST" name="tearDown" finished-at="2026-01-09T16:00:56 IST" duration-ms="379" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@21de60b4]" started-at="2026-01-09T16:00:56 IST" name="tearDown" finished-at="2026-01-09T16:00:56 IST" duration-ms="379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.HomePageTest@21de60b4]" started-at="2026-01-09T16:00:56 IST" name="setup" finished-at="2026-01-09T16:01:03 IST" duration-ms="6976" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@21de60b4]" started-at="2026-01-09T16:00:56 IST" name="setup" finished-at="2026-01-09T16:01:03 IST" duration-ms="6976" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.HomePageTest@21de60b4]" started-at="2026-01-09T16:01:03 IST" name="testCart" data-provider="swagLabCartData" finished-at="2026-01-09T16:01:32 IST" duration-ms="28727" status="PASS">
+        <test-method signature="testCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@21de60b4]" started-at="2026-01-09T16:01:03 IST" name="testCart" data-provider="swagLabCartData" finished-at="2026-01-09T16:01:32 IST" duration-ms="28727" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,11 +95,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.playwright.tests.SwagLabTc.HomePageTest@21de60b4]" started-at="2026-01-09T16:01:32 IST" name="tearDown" finished-at="2026-01-09T16:01:32 IST" duration-ms="294" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@21de60b4]" started-at="2026-01-09T16:01:32 IST" name="tearDown" finished-at="2026-01-09T16:01:32 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.playwright.tests.SwagLabTc.HomePageTest -->
+      </class> <!-- com.qa.playwright.tests.SwagLabTc.LeavePageTest -->
     </test> <!-- Swag Lab Login Page Test -->
   </suite> <!-- Test Suite -->
 </testng-results>

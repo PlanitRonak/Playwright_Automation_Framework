@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import com.qa.playwright.base.BaseTest;
 import com.qa.playwright.constants.AppConstants;
 
-public class HomePageTest extends BaseTest {
+public class LeavePageTest extends BaseTest {
 
     @Test(enabled = false)
     public void homePageTitleTest() {

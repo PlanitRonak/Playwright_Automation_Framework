@@ -1,11 +1,9 @@
 package com.qa.playwright.utilities;
 
-import com.microsoft.playwright.BrowserContext;
-import com.microsoft.playwright.ElementHandle;
-import com.microsoft.playwright.Locator;
-import com.microsoft.playwright.Page;
+import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.LoadState;
 import com.microsoft.playwright.options.SelectOption;
+import com.qa.playwright.factory.PlaywrightFactory;
 import com.qa.playwright.pages.SwagLabPages.swagLabCartPage;
 import com.qa.playwright.pages.SwagLabPages.swagLabHomePage;
 import org.apache.log4j.Logger;
@@ -13,6 +11,7 @@ import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -27,9 +26,23 @@ public class ReusableFunctions {
 
     public void clickElement(Locator element){
         if(element.isDisabled()) {
+            logger.error("Element not clickable");
             Assert.fail(element+" not Clickable");
         } else {
+            logger.info("Element Clicked");
             element.click();
+        }
+    }
+
+    public void clickElement(String element){
+        page.waitForSelector(element);
+        Locator locatedElement = page.locator(element);
+        if(locatedElement.isDisabled()) {
+            logger.error("Element not clickable");
+            Assert.fail(element+" not Clickable");
+        } else {
+            logger.info("Element Clicked");
+            locatedElement.click();
         }
     }
 
@@ -144,9 +157,11 @@ public class ReusableFunctions {
 
     public void enterText (String locator,String Value) {
         try{
+            logger.info("Entering Text");
             page.fill(locator, Value);
         } catch (Exception e) {
-            System.out.println("Error While Entering Text");
+            logger.error("Error while entering text");
+            Assert.fail("Error while entering text");
         }
     }
 
@@ -314,5 +329,45 @@ public class ReusableFunctions {
                 }
             }
         });
+    }
+
+    public boolean verifyLink(String anchorTagLocator) {
+        logger.info("Verifying Links");
+        page.waitForSelector(anchorTagLocator);
+        Locator linkElements = page.locator(anchorTagLocator);
+        for (int i = 0 ; i < linkElements.count() ; i++) {
+            String href = linkElements.nth(i).getAttribute("href");
+            if (href != null && !href.isEmpty()) {
+                try {
+                    // Create API request context
+                    APIRequestContext request = PlaywrightFactory.getPlaywright().request().newContext(new APIRequest.NewContextOptions()
+                            .setExtraHTTPHeaders(
+                                    Map.of(
+                                            "User-Agent",
+                                            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120",
+                                            "Accept", "*/*",
+                                            "Accept-Language", "en-US,en;q=0.9"
+                                    )
+                            )
+
+                    );
+                    APIResponse response = request.get(href);
+                    int statusCode = response.status();
+                    if(statusCode == 999) {
+                        logger.info("Blocked (999): " + href + " | Status: " + statusCode);
+                        continue;
+                    } else if (statusCode >= 400) {
+                        logger.info("Broken link: " + href + " | Status: " + statusCode);
+                    } else {
+                        logger.info("Valid link: " + href + " | Status: " + statusCode);
+                    }
+                    request.dispose();
+                } catch (Exception e) {
+                    logger.error("Error checking link: " + href + " " + e.getMessage());
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }

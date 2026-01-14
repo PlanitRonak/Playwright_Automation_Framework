@@ -10,7 +10,7 @@
     <test name="Swag Lab Login Page Test">
         <parameter name="browser" value="chrome" />
         <classes>
-            <class name="com.qa.playwright.tests.TestAutomationTc.HomePageTest" />
+            <class name="com.qa.playwright.tests.TestAutomationTc.LeavePageTest" />
         </classes>
     </test>
 </suite>

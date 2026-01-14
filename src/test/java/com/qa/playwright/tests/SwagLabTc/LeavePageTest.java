@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class HomePageTest extends BaseTest {
+public class LeavePageTest extends BaseTest {
     public void login() {
         if(prop.getProperty("Login").equalsIgnoreCase("true")) {
             logger.info("Logging into Application");

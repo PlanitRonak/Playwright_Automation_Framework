@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.util.Arrays;
 
-public class HomePageTest extends BaseTest {
+public class LeavePageTest extends BaseTest {
     @Test(priority = 1, enabled = true)
     public void testSearch() {
         logger.info("Search Test Started.");

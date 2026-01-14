@@ -10,7 +10,7 @@
     <test name="Open Cart Home Page Test_chrome 1">
         <parameter name="browser" value="chromium" />
         <classes>
-            <class name="com.qa.playwright.tests.InstaxTc.HomePageTest" />
+            <class name="com.qa.playwright.tests.InstaxTc.LeavePageTest" />
         </classes>
     </test>
 </suite>
