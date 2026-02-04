@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="28.975" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="93.106" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AU"/>
     <property name="sun.boot.library.path" value="C:\Users\ryadav\.jdks\ms-17.0.16\bin"/>
-    <property name="sun.java.command" value="C:\Users\ryadav\AppData\Local\Temp\surefire10920801322182993120\surefirebooter-20260114123840054_3.jar C:\Users\ryadav\AppData\Local\Temp\surefire10920801322182993120 2026-01-14T12-38-39_807-jvmRun1 surefire-20260114123840054_1tmp surefire_0-20260114123840054_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ryadav\AppData\Local\Temp\surefire10425085049071142240\surefirebooter-20260116153812144_3.jar C:\Users\ryadav\AppData\Local\Temp\surefire10425085049071142240 2026-01-16T15-38-11_951-jvmRun1 surefire-20260116153812144_1tmp surefire_0-20260116153812144_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\target\test-classes;C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\Playwright_Automation_Framework\target\classes;C:\Users\ryadav\.m2\repository\com\microsoft\playwright\playwright\1.49.0\playwright-1.49.0.jar;C:\Users\ryadav\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\ryadav\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\ryadav\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ryadav\.m2\repository\com\microsoft\playwright\driver\1.49.0\driver-1.49.0.jar;C:\Users\ryadav\.m2\repository\com\microsoft\playwright\driver-bundle\1.49.0\driver-bundle-1.49.0.jar;C:\Users\ryadav\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ryadav\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ryadav\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ryadav\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ryadav\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\ryadav\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ryadav\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ryadav\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ryadav\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\ryadav\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\ryadav\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ryadav\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ryadav\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\ryadav\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\ryadav\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\ryadav\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\ryadav\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\ryadav\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\ryadav\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\ryadav\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\ryadav\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\ryadav\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ryadav\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,14 +31,14 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="projectName" value="OrangeHRM"/>
-    <property name="surefire.real.class.path" value="C:\Users\ryadav\AppData\Local\Temp\surefire10920801322182993120\surefirebooter-20260114123840054_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ryadav\AppData\Local\Temp\surefire10425085049071142240\surefirebooter-20260116153812144_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+8-LTS"/>
     <property name="user.name" value="ryadav"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="current.date" value="2026_01_14_12-38-42"/>
+    <property name="current.date" value="2026_01_16_15-38-14"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -53,7 +53,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\ryadav\.jdks\ms-17.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\WindowsPowerShell\Scripts;C:\Program Files\nodejs\;C:\Users\ryadav\AppData\Local\Microsoft\WindowsApps;C:\Users\ryadav\AppData\Local\Programs\Git\cmd;C:\Program Files\nodejs;C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\maven-mvnd-1.0.3-windows-amd64;C:\Users\ryadav\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ryadav\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Users\ryadav\.jdks\ms-17.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\WindowsPowerShell\Scripts;C:\Program Files\nodejs\;C:\Users\ryadav\AppData\Local\Microsoft\WindowsApps;C:\Users\ryadav\AppData\Local\Programs\Git\cmd;C:\Users\ryadav\OneDrive - Planit Test Management Solutions Pty Ltd\Desktop\maven-mvnd-1.0.3-windows-amd64;C:\Users\ryadav\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ryadav\AppData\Local\GitHubDesktop\bin;C:\Users\ryadav\AppData\Roaming\npm;C:\Program Files\nodejs;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Microsoft"/>
     <property name="java.vm.version" value="17.0.16+8-LTS"/>
@@ -61,16 +61,104 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testLinks" classname="com.qa.playwright.tests.OrangeHrmTc.LoginPageTest" time="4.944">
-    <system-out><![CDATA[2026-01-14 12:38:43 INFO  BaseTest:88 - Log4j initialized for this run: 2026_01_14_12-38-42
-2026-01-14 12:38:43 INFO  BaseTest:60 - Browser initialize
-browser name is : chromium
-2026-01-14 12:39:06 INFO  BaseTest:323 - Verifying Links
-2026-01-14 12:39:07 INFO  BaseTest:345 - Blocked (999): https://www.linkedin.com/company/orangehrm/mycompany/ | Status: 999
-2026-01-14 12:39:07 INFO  BaseTest:350 - Valid link: https://www.facebook.com/OrangeHRM/ | Status: 200
-2026-01-14 12:39:08 INFO  BaseTest:350 - Valid link: https://twitter.com/orangehrm?lang=en | Status: 200
-2026-01-14 12:39:09 INFO  BaseTest:350 - Valid link: https://www.youtube.com/c/OrangeHRMInc | Status: 200
-2026-01-14 12:39:10 INFO  BaseTest:350 - Valid link: http://www.orangehrm.com | Status: 200
+  <testcase name="applyLeaveTest" classname="com.qa.playwright.tests.OrangeHrmTc.LeavePageTest" time="34.582">
+    <failure message="Error {&#10;  message=&apos;Target page, context or browser has been closed&#10;  name=&apos;TargetClosedError&#10;  stack=&apos;TargetClosedError:Target page, context or browser has been closed&#10;Error&#10;    at captureRawStack (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\stackTrace.js:50:17)&#10;    at LongStandingScope._race (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\manualPromise.js:91:52)&#10;    at LongStandingScope.race (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\manualPromise.js:84:17)&#10;    at FrameDispatcher._handleCommand (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\server\dispatchers\dispatcher.js:96:36)&#10;    at DispatcherConnection.dispatch (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - waiting for locator(&quot;//div[@role=&apos;document&apos;]&quot;) to be visible&#10;" type="com.microsoft.playwright.impl.TargetClosedError"><![CDATA[com.microsoft.playwright.impl.TargetClosedError: 
+Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\stackTrace.js:50:17)
+    at LongStandingScope._race (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\manualPromise.js:91:52)
+    at LongStandingScope.race (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\server\dispatchers\dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//div[@role='document']") to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:1060)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:1050)
+	at com.microsoft.playwright.impl.PageImpl.lambda$waitForSelector$95(PageImpl.java:1590)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.waitForSelector(PageImpl.java:1589)
+	at com.microsoft.playwright.Page.waitForSelector(Page.java:8291)
+	at com.qa.playwright.pages.OrangeHRMPages.orangeHrmLeavePage.applyLeave(orangeHrmLeavePage.java:49)
+	at com.qa.playwright.tests.OrangeHrmTc.LeavePageTest.applyLeaveTest(LeavePageTest.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\stackTrace.js:50:17)
+    at LongStandingScope._race (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\manualPromise.js:91:52)
+    at LongStandingScope.race (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\server\dispatchers\dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//div[@role='document']") to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 33 more
+]]></failure>
+    <system-out><![CDATA[2026-01-16 15:38:14 INFO  BaseTest:92 - Log4j initialized for this run: 2026_01_16_15-38-14
+2026-01-16 15:38:14 INFO  BaseTest:64 - Browser initialize
+browser name is : chrome
+2026-01-16 15:38:38 INFO  BaseTest:25 - Entering Credentials
+2026-01-16 15:38:38 INFO  BaseTest:171 - Entering Text
+2026-01-16 15:38:40 INFO  BaseTest:171 - Entering Text
+2026-01-16 15:38:42 INFO  BaseTest:32 - Element Clicked
+2026-01-16 15:38:50 INFO  BaseTest:44 - Element Clicked
+2026-01-16 15:39:12 INFO  BaseTest:32 - Apply Leave Test start
+2026-01-16 15:39:12 INFO  BaseTest:33 - Start date: 2026-1-1
+2026-01-16 15:39:12 INFO  BaseTest:34 - End date: 2026-31-12
+2026-01-16 15:39:13 INFO  BaseTest:44 - Element Clicked
+2026-01-16 15:39:20 INFO  BaseTest:171 - Entering Text
+2026-01-16 15:39:22 INFO  BaseTest:101 - Pressing key: ArrowDown
+2026-01-16 15:39:24 INFO  BaseTest:103 - Successfully pressed key: ArrowDown
+2026-01-16 15:39:24 INFO  BaseTest:101 - Pressing key: Enter
+2026-01-16 15:39:26 INFO  BaseTest:103 - Successfully pressed key: Enter
+2026-01-16 15:39:26 INFO  BaseTest:44 - Element Clicked
+2026-01-16 15:39:28 INFO  BaseTest:32 - Element Clicked
+2026-01-16 15:39:30 INFO  BaseTest:44 - Element Clicked
+2026-01-16 15:39:32 INFO  BaseTest:171 - Entering Text
+2026-01-16 15:39:34 INFO  BaseTest:44 - Element Clicked
+2026-01-16 15:39:36 INFO  BaseTest:101 - Pressing key: Control+A
+2026-01-16 15:39:38 INFO  BaseTest:103 - Successfully pressed key: Control+A
+2026-01-16 15:39:38 INFO  BaseTest:101 - Pressing key: Backspace
+2026-01-16 15:39:40 INFO  BaseTest:103 - Successfully pressed key: Backspace
+2026-01-16 15:39:40 INFO  BaseTest:171 - Entering Text
+2026-01-16 15:39:42 INFO  BaseTest:44 - Element Clicked
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation

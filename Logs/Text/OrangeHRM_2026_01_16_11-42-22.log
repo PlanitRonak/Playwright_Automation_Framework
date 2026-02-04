@@ -1,0 +1,13 @@
+2026-01-16 11:42:22 INFO  BaseTest:92 - Log4j initialized for this run: 2026_01_16_11-42-22
+2026-01-16 11:42:22 INFO  BaseTest:64 - Browser initialize
+2026-01-16 11:42:44 INFO  BaseTest:25 - Entering Credentials
+2026-01-16 11:42:44 INFO  BaseTest:170 - Entering Text
+2026-01-16 11:42:46 INFO  BaseTest:170 - Entering Text
+2026-01-16 11:42:48 INFO  BaseTest:32 - Element Clicked
+2026-01-16 11:42:52 INFO  BaseTest:44 - Element Clicked
+2026-01-16 11:42:59 INFO  BaseTest:26 - Apply Leave Test start
+2026-01-16 11:42:59 INFO  BaseTest:27 - Start date: 2026-1-1
+2026-01-16 11:42:59 INFO  BaseTest:28 - End date: 2026-31-12
+2026-01-16 11:42:59 INFO  BaseTest:44 - Element Clicked
+2026-01-16 11:43:04 INFO  BaseTest:170 - Entering Text
+2026-01-16 11:43:06 INFO  BaseTest:44 - Element Clicked

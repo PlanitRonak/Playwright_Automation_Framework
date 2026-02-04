@@ -50,6 +50,17 @@ public class ReusableFunctions {
         page.locator(dropDown).selectOption(new SelectOption().setLabel(value));
     }
 
+    public void selectCustomDropDown(String optionsLocator, String value) {
+        page.waitForSelector(optionsLocator);
+        Locator options = page.locator(optionsLocator);
+        for (int i = 0 ; i < options.count() ; i++) {
+            if(options.nth(i).textContent().equals(value)){
+                clickElement(options.nth(i));
+                break;
+            }
+        }
+    }
+
     public String getPrice(String input) {
         return input.replaceAll("[^\\d.]", "");
     }

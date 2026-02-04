@@ -1,0 +1,27 @@
+2026-01-16 12:34:32 INFO  BaseTest:92 - Log4j initialized for this run: 2026_01_16_12-34-32
+2026-01-16 12:34:32 INFO  BaseTest:64 - Browser initialize
+2026-01-16 12:35:11 INFO  BaseTest:25 - Entering Credentials
+2026-01-16 12:35:11 INFO  BaseTest:171 - Entering Text
+2026-01-16 12:35:13 INFO  BaseTest:171 - Entering Text
+2026-01-16 12:35:15 INFO  BaseTest:32 - Element Clicked
+2026-01-16 12:35:18 INFO  BaseTest:44 - Element Clicked
+2026-01-16 12:35:22 INFO  BaseTest:31 - Apply Leave Test start
+2026-01-16 12:35:22 INFO  BaseTest:32 - Start date: 2026-1-1
+2026-01-16 12:35:22 INFO  BaseTest:33 - End date: 2026-31-12
+2026-01-16 12:35:22 INFO  BaseTest:44 - Element Clicked
+2026-01-16 12:35:25 INFO  BaseTest:171 - Entering Text
+2026-01-16 12:35:27 INFO  BaseTest:101 - Pressing key: ArrowDown
+2026-01-16 12:35:29 INFO  BaseTest:103 - Successfully pressed key: ArrowDown
+2026-01-16 12:35:29 INFO  BaseTest:101 - Pressing key: Enter
+2026-01-16 12:35:31 INFO  BaseTest:103 - Successfully pressed key: Enter
+2026-01-16 12:35:31 INFO  BaseTest:44 - Element Clicked
+2026-01-16 12:35:33 INFO  BaseTest:32 - Element Clicked
+2026-01-16 12:35:35 INFO  BaseTest:44 - Element Clicked
+2026-01-16 12:35:37 INFO  BaseTest:171 - Entering Text
+2026-01-16 12:35:39 INFO  BaseTest:44 - Element Clicked
+2026-01-16 12:35:41 INFO  BaseTest:101 - Pressing key: Control+A
+2026-01-16 12:35:43 INFO  BaseTest:103 - Successfully pressed key: Control+A
+2026-01-16 12:35:43 INFO  BaseTest:101 - Pressing key: Backspace
+2026-01-16 12:35:45 INFO  BaseTest:103 - Successfully pressed key: Backspace
+2026-01-16 12:35:45 INFO  BaseTest:171 - Entering Text
+2026-01-16 12:35:47 INFO  BaseTest:44 - Element Clicked
