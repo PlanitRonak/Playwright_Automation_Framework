@@ -12,13 +12,14 @@ public class LeavePageTest extends BaseTest {
         orangeHrmHomePage = orangeHrmLoginPage.navigateToHomePage();
         orangeHrmLeavePage = orangeHrmHomePage.navigateToLeave();
     }
+
     @Test(enabled = true)
     public void navigateToLeave() {
         Assert.assertTrue(orangeHrmLeavePage.verifyNavigation(), "Navigation Failed.");
     }
 
-    @Test(enabled = true)
-    public void applyLeaveTest() {
+    @Test(enabled = true, dependsOnMethods = {"navigateToLeave"})
+    public void applyLeaveTest() throws InterruptedException {
         Assert.assertTrue(orangeHrmLeavePage.applyLeave("2026-1-1", "2026-31-12"), "Failed to assign leave");
     }
 }

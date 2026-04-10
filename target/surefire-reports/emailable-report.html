@@ -9,60 +9,10 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Test Suite</th></tr>
-<tr><td><a href="#t0">Open Cart Home Page Test_chrome 1</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">91,806</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Swag Lab Login Page Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,960</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Open Cart Home Page Test_chrome 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.playwright.tests.OrangeHrmTc.LeavePageTest</td><td><a href="#m0">applyLeaveTest</a></td><td rowspan="1">1768558151997</td><td rowspan="1">34579</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Swag Lab Login Page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.playwright.tests.SwagLabTc.LeavePageTest</td><td><a href="#m0">testHover</a></td><td rowspan="1">1775805331293</td><td rowspan="1">10234</td></tr></tbody>
 </table>
-<h2>Open Cart Home Page Test_chrome 1</h2><h3 id="m0">com.qa.playwright.tests.OrangeHrmTc.LeavePageTest#applyLeaveTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.impl.TargetClosedError: Error {
-  message=&apos;Target page, context or browser has been closed
-  name=&apos;TargetClosedError
-  stack=&apos;TargetClosedError:Target page, context or browser has been closed
-Error
-    at captureRawStack (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\stackTrace.js:50:17)
-    at LongStandingScope._race (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\manualPromise.js:91:52)
-    at LongStandingScope.race (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\manualPromise.js:84:17)
-    at FrameDispatcher._handleCommand (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\server\dispatchers\dispatcher.js:96:36)
-    at DispatcherConnection.dispatch (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
--   - waiting for locator(&quot;//div[@role=&apos;document&apos;]&quot;) to be visible
-
-	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
-	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:1060)
-	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:1050)
-	at com.microsoft.playwright.impl.PageImpl.lambda$waitForSelector$95(PageImpl.java:1590)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
-	at com.microsoft.playwright.impl.PageImpl.waitForSelector(PageImpl.java:1589)
-	at com.microsoft.playwright.Page.waitForSelector(Page.java:8291)
-	at com.qa.playwright.pages.OrangeHRMPages.orangeHrmLeavePage.applyLeave(orangeHrmLeavePage.java:49)
-	at com.qa.playwright.tests.OrangeHrmTc.LeavePageTest.applyLeaveTest(LeavePageTest.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
-  message=&apos;Target page, context or browser has been closed
-  name=&apos;TargetClosedError
-  stack=&apos;TargetClosedError:Target page, context or browser has been closed
-Error
-    at captureRawStack (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\stackTrace.js:50:17)
-    at LongStandingScope._race (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\manualPromise.js:91:52)
-    at LongStandingScope.race (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\utils\manualPromise.js:84:17)
-    at FrameDispatcher._handleCommand (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\server\dispatchers\dispatcher.js:96:36)
-    at DispatcherConnection.dispatch (C:\Users\ryadav\AppData\Local\Temp\playwright-java-10358837251427122710\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
--   - waiting for locator(&quot;//div[@role=&apos;document&apos;]&quot;) to be visible
-
-	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
-	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
-	... 33 more
-... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Swag Lab Login Page Test</h2><h3 id="m0">com.qa.playwright.tests.SwagLabTc.LeavePageTest#testHover</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

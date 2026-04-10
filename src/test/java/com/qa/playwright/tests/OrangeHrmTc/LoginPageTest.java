@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginPageTest extends BaseTest {
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void login() {
         orangeHrmLoginPage.enterCredentials(prop.getProperty("username"), prop.getProperty("password"));
         Assert.assertTrue(orangeHrmLoginPage.verifyLogin(), "Login Failed. Invalid Credentials");

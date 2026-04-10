@@ -1,0 +1,8 @@
+2026-04-10 12:01:04 INFO  BaseTest:92 - Log4j initialized for this run: 2026_04_10_12-01-04
+2026-04-10 12:01:04 INFO  BaseTest:64 - Browser initialize
+2026-04-10 12:01:11 INFO  BaseTest:12 - Login TestCases started
+2026-04-10 12:01:15 INFO  BaseTest:15 - Entered credentials with problem_user and secret_sauce
+2026-04-10 12:01:17 INFO  BaseTest:18 - Verify login
+2026-04-10 12:01:17 INFO  BaseTest:23 - Login Successful
+2026-04-10 12:01:17 INFO  BaseTest:29 - Login TestCases ended
+2026-04-10 12:01:17 INFO  BaseTest:78 - Closing browser

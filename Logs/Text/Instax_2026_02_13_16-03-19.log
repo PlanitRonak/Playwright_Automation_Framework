@@ -1,0 +1,10 @@
+2026-02-13 16:03:19 INFO  BaseTest:92 - Log4j initialized for this run: 2026_02_13_16-03-19
+2026-02-13 16:03:19 INFO  BaseTest:64 - Browser initialize
+2026-02-13 16:03:28 INFO  BaseTest:28 - Hover test Started
+2026-02-13 16:03:28 INFO  BaseTest:62 - Hovered over 1 element.
+2026-02-13 16:03:30 INFO  BaseTest:62 - Hovered over 2 element.
+2026-02-13 16:03:32 INFO  BaseTest:62 - Hovered over 3 element.
+2026-02-13 16:03:34 INFO  BaseTest:62 - Hovered over 4 element.
+2026-02-13 16:03:36 INFO  BaseTest:62 - Hovered over 5 element.
+2026-02-13 16:03:38 INFO  BaseTest:30 - Hover Over test ended
+2026-02-13 16:03:38 INFO  BaseTest:78 - Closing browser

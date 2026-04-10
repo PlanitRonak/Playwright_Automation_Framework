@@ -3,12 +3,12 @@
 
 <suite name="Test Suite" parallel="tests" thread-count="3"><!--   for parallel testing -->
 
-<!--    <listeners>-->
-<!--        <listener class-name="com.qa.playwright.listeners.ExtentReportListener" />-->
-<!--    </listeners>-->
+    <listeners>
+        <listener class-name="com.qa.playwright.listeners.ExtentReportListener" />
+    </listeners>
 
     <test name="Open Cart Home Page Test_chrome 1">
-        <parameter name="browser" value="chrome" />
+        <parameter name="browser" value="chromium" />
         <classes>
 <!--            <class name="com.qa.playwright.tests.OrangeHrmTc.LoginPageTest" />-->
             <class name="com.qa.playwright.tests.OrangeHrmTc.LeavePageTest" />

@@ -28,13 +28,14 @@ public class orangeHrmLeavePage extends BasePage {
         return page.url().equals("https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList");
     }
 
-    public boolean applyLeave(String startDate, String endDate) {
+    public boolean applyLeave(String startDate, String endDate) throws InterruptedException {
         logger.info("Apply Leave Test start");
         logger.info("Start date: "+startDate);
         logger.info("End date: "+endDate);
         _reuse.clickElement(assignLeaveBtn);
         _reuse.enterText(hintBox, page.locator(name).textContent());
-        page.waitForSelector(suggestionList);
+//        page.waitForSelector(suggestionList);
+        Thread.sleep(3000);
         _reuse.pressKey("ArrowDown");
         _reuse.pressKey("Enter");
         _reuse.clickElement(leaveTypeDropDown);

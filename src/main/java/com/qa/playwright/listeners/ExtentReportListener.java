@@ -11,6 +11,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Properties;
 
+import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -63,6 +64,7 @@ public class ExtentReportListener implements ITestListener {
         String timestamp = new SimpleDateFormat("yyyy_MM_dd_HH-mm-ss").format(new Date());
         String reportFile = OUTPUT_FOLDER + projectName + "_" + timestamp + "_" + Thread.currentThread().getId() + ".html";
         ExtentSparkReporter reporter = new ExtentSparkReporter(reportFile);
+        reporter.config().setTheme(Theme.DARK);
         reporter.config().setReportName(projectName+" Automation Test Results");
         extent.get().attachReporter(reporter);
         extent.get().setSystemInfo("System", "WINDOWS");

@@ -1,0 +1,9 @@
+2026-02-09 15:27:42 INFO  BaseTest:92 - Log4j initialized for this run: 2026_02_09_15-27-42
+2026-02-09 15:27:42 INFO  BaseTest:64 - Browser initialize
+2026-02-09 15:28:07 INFO  BaseTest:25 - Entering Credentials
+2026-02-09 15:28:07 INFO  BaseTest:171 - Entering Text
+2026-02-09 15:28:14 INFO  BaseTest:171 - Entering Text
+2026-02-09 15:28:16 INFO  BaseTest:32 - Element Clicked
+2026-02-09 15:28:38 INFO  BaseTest:44 - Element Clicked
+2026-02-09 15:28:55 INFO  BaseTest:27 - Verifying URL.
+2026-02-09 15:28:55 INFO  BaseTest:78 - Closing browser

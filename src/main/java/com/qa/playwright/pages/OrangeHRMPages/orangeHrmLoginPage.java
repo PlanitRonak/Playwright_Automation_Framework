@@ -18,7 +18,7 @@ public class orangeHrmLoginPage extends BasePage {
 
     String usernameField = "//input[@placeholder='Username']";
     String passwordField = "//input[@placeholder='Password']";
-    String submitBtn = "//button[normalize-space()='Login']";
+    String submitBtn = "//input[@id='login-button']";
     String links = "//a";
 
     public void enterCredentials(String username, String password) {
