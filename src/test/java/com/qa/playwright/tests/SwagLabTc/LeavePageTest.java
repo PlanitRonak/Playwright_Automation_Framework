@@ -3,7 +3,6 @@ package com.qa.playwright.tests.SwagLabTc;
 import com.qa.playwright.base.BaseTest;
 import com.qa.playwright.utilities.DataProviders;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LeavePageTest extends BaseTest {
