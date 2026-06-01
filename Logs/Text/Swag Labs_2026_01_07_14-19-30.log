@@ -1,0 +1,13 @@
+2026-01-07 14:19:30 INFO  BaseTest:82 - Log4j initialized for this run: 2026_01_07_14-19-30
+2026-01-07 14:19:30 INFO  BaseTest:56 - Browser initialize
+2026-01-07 14:19:37 INFO  BaseTest:36 - Login TestCases started
+2026-01-07 14:19:41 INFO  BaseTest:39 - Entered credentials
+2026-01-07 14:19:43 INFO  BaseTest:42 - Verify login
+2026-01-07 14:19:43 ERROR BaseTest:55 - Login Unsuccessful
+2026-01-07 14:19:43 INFO  BaseTest:57 - Login TestCases ended
+2026-01-07 14:19:43 INFO  BaseTest:36 - Login TestCases started
+2026-01-07 14:19:47 INFO  BaseTest:39 - Entered credentials
+2026-01-07 14:19:49 INFO  BaseTest:42 - Verify login
+2026-01-07 14:19:49 ERROR BaseTest:55 - Login Unsuccessful
+2026-01-07 14:19:49 INFO  BaseTest:57 - Login TestCases ended
+2026-01-07 14:19:49 INFO  BaseTest:68 - Closing browser

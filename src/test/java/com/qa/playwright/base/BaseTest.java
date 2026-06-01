@@ -6,6 +6,10 @@ import java.util.Properties;
 
 import com.qa.playwright.pages.AmazonPages.CartPage;
 import com.qa.playwright.pages.AmazonPages.HomePage;
+import com.qa.playwright.pages.Instax.instaxHomePage;
+import com.qa.playwright.pages.OrangeHRMPages.orangeHrmHomePage;
+import com.qa.playwright.pages.OrangeHRMPages.orangeHrmLeavePage;
+import com.qa.playwright.pages.OrangeHRMPages.orangeHrmLoginPage;
 import com.qa.playwright.pages.PracticeHomePage;
 import com.qa.playwright.pages.SwagLabPages.swagLabCartPage;
 import com.qa.playwright.pages.SwagLabPages.swagLabHomePage;
@@ -39,6 +43,10 @@ public class BaseTest {
     protected swagLabHomePage swagLabHomePage;
     protected swagLabCartPage swagLabCartPage;
     protected testAutomationHomePage testAutomationHomePage;
+    protected instaxHomePage instaxHomePage;
+    protected orangeHrmLoginPage orangeHrmLoginPage;
+    protected orangeHrmHomePage orangeHrmHomePage;
+    protected orangeHrmLeavePage orangeHrmLeavePage;
 
     @Parameters({ "browser" })
     @BeforeMethod
@@ -61,6 +69,8 @@ public class BaseTest {
         amazonPage = new HomePage(page, _reuse, logger);
         swagloginPage = new swagLabLoginPage(page, _reuse, logger);
         testAutomationHomePage = new testAutomationHomePage(page, _reuse, logger);
+        instaxHomePage = new instaxHomePage(page, _reuse, logger);
+        orangeHrmLoginPage = new orangeHrmLoginPage(page, _reuse, logger);
     }
 
     @AfterMethod

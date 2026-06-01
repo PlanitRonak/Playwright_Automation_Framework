@@ -1,0 +1,9 @@
+2026-03-27 12:25:20 INFO  BaseTest:92 - Log4j initialized for this run: 2026_03_27_12-25-19
+2026-03-27 12:25:20 INFO  BaseTest:64 - Browser initialize
+2026-03-27 12:25:41 INFO  BaseTest:346 - Verifying Links
+2026-03-27 12:25:42 INFO  BaseTest:368 - Blocked (999): https://www.linkedin.com/company/orangehrm/mycompany/ | Status: 999
+2026-03-27 12:25:42 INFO  BaseTest:373 - Valid link: https://www.facebook.com/OrangeHRM/ | Status: 200
+2026-03-27 12:25:43 INFO  BaseTest:373 - Valid link: https://twitter.com/orangehrm?lang=en | Status: 200
+2026-03-27 12:25:44 INFO  BaseTest:373 - Valid link: https://www.youtube.com/c/OrangeHRMInc | Status: 200
+2026-03-27 12:25:47 INFO  BaseTest:373 - Valid link: http://www.orangehrm.com | Status: 200
+2026-03-27 12:25:47 INFO  BaseTest:78 - Closing browser

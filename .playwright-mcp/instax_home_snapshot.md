@@ -1,0 +1,891 @@
+### New console messages
+- [WARNING] Universal Cookies script is already loaded @ https://sr-cdn.shiprocket.in/sr-promise/stati...
+- [LOG] %c~display cart%c thumb fix cors, preload, priced options, custom v4.2 #b4f1dd1 border-radius:...
+- [LOG] loading sentry script @ https://cdn.littlebesidesme.com/PIU/main.js?shop=fujifilm-instax.mysho...
+- [LOG] %c~image uploader%c fix-canvas-size; block crop modal; v2.24 #8a3d6ff border-radius:3px 0 0 3p...
+- [ERROR] Access to fetch at 'https://popups.bitespeed.co/impressionsInvoker' from origin 'https://www...
+- [ERROR] Failed to load resource: net::ERR_FAILED @ https://popups.bitespeed.co/impressionsInvoker:0
+- Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'length')
+    at <anon...
+- Uncaught (in promise) TypeError: Failed to fetch
+    at n.guarded.Z.minMaxify.i.fetch (https://limit...
+- [LOG] [Firepush][core] Embed starting... @ https://my.fpcdn.me/embed/shopify/fujifilm-instax.myshopi...
+- [LOG] Oxi Social Login Initialized @ https://social-login.oxiapps.com/api/init?vt=122&shop=fujifilm-...
+- [ERROR] Failed to load resource: the server responded with a status of 403 () @ chrome-error://chrom...
+- [ERROR] Refused to display 'https://logisy.tech/' in a frame because it set 'X-Frame-Options' to 'sa...
+- [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://wt.omnisendl...
+- [LOG] [Firepush][core] Embed initialized successfully @ https://omnisnippet1.com/monitoring/monitori...
+
+### Page state
+- Page URL: https://www.instax.in/
+- Page Title: Instant photo camera | Instax Smartphone printer Camera-Fujifilm India | Fujifilm Instax
+- Page Snapshot:
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#nt_content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e9]:
+        - link "Fujifilm Instax" [ref=e12] [cursor=pointer]:
+          - /url: /
+          - img "Fujifilm Instax" [ref=e13]
+        - navigation [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Cameras " [ref=e18] [cursor=pointer]:
+                - /url: /collections/camera
+            - listitem [ref=e19]:
+              - link "Printers " [ref=e20] [cursor=pointer]:
+                - /url: /collections/printer
+            - listitem [ref=e21]:
+              - link "Films " [ref=e22] [cursor=pointer]:
+                - /url: /collections/films
+            - listitem [ref=e23]:
+              - link "Accessories " [ref=e24] [cursor=pointer]:
+                - /url: /collections/accessories
+            - listitem [ref=e25]:
+              - link "Gift Boxes " [ref=e26] [cursor=pointer]:
+                - /url: /collections/gift-box
+            - listitem [ref=e27]:
+              - link "Hot Deals Hurry!" [ref=e28] [cursor=pointer]:
+                - /url: /collections/all-products
+                - text: Hot Deals
+                - generic [ref=e29]: Hurry!
+            - listitem [ref=e30]:
+              - link "instax Biz" [ref=e31] [cursor=pointer]:
+                - /url: /pages/instax-biz-new
+            - listitem [ref=e32]:
+              - link "Shop All " [ref=e33] [cursor=pointer]:
+                - /url: /collections/shop-all
+        - generic [ref=e35]:
+          - link "" [ref=e36] [cursor=pointer]:
+            - /url: /search
+            - generic [ref=e37]: 
+          - link "" [ref=e39] [cursor=pointer]:
+            - /url: /account/login
+            - generic [ref=e40]: 
+          - link " 0" [ref=e41] [cursor=pointer]:
+            - /url: /search/?view=wish
+            - generic [ref=e42]:
+              - text: 
+              - generic [ref=e43]: "0"
+          - link " 0" [ref=e45] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=e46]:
+              - text: 
+              - generic [ref=e47]: "0"
+    - generic [ref=e48]:
+      - generic [ref=e50]:
+        - generic [ref=e53]:
+          - tabpanel [ref=e54]:
+            - link [ref=e55] [cursor=pointer]:
+              - /url: /products/instax-mini-evo
+          - tabpanel [ref=e56]:
+            - link [ref=e57] [cursor=pointer]:
+              - /url: /products/instax-liplay-plus
+          - tabpanel [ref=e58]:
+            - link [ref=e59] [cursor=pointer]:
+              - /url: /products/instax-wide-evo
+        - tablist [ref=e60]:
+          - tab "1 of 3" [ref=e61] [cursor=pointer]: "1"
+          - tab "2 of 3" [ref=e62] [cursor=pointer]: "2"
+          - tab "3 of 3" [selected] [ref=e63] [cursor=pointer]: "3"
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - heading "This Week’s Steal Deals" [level=3] [ref=e68]:
+            - generic [ref=e69]: This Week’s Steal Deals
+          - generic [ref=e70]: Get these products at great prices, only this week!
+        - generic [ref=e72]:
+          - button "Previous" [disabled] [ref=e73] [cursor=pointer]
+          - generic [ref=e75]:
+            - generic [ref=e77]:
+              - link "Instax WIDE Evo Premium Edition" [ref=e80] [cursor=pointer]:
+                - /url: /products/instax-wide-evo
+                - img "Instax WIDE Evo Premium Edition" [ref=e81]
+              - generic [ref=e82]:
+                - heading "Instax WIDE Evo Premium Edition" [level=3] [ref=e83]:
+                  - link "Instax WIDE Evo Premium Edition" [ref=e84] [cursor=pointer]:
+                    - /url: /products/instax-wide-evo
+                - generic [ref=e86]:
+                  - generic [ref=e87]: 
+                  - generic [ref=e88]: 
+                  - generic [ref=e89]: 
+                  - generic [ref=e90]: 
+                  - generic [ref=e91]: 
+                  - text: 4 reviews
+                - generic [ref=e92]: Make every shot a masterpiece
+                - generic [ref=e93]:
+                  - text: "M.R.P:"
+                  - deletion [ref=e94]: ₹ 47,999
+                  - insertion [ref=e95]: ₹ 37,499
+                - generic [ref=e97]:
+                  - list [ref=e98]:
+                    - listitem [ref=e99]:
+                      - radio [checked] [ref=e100] [cursor=pointer]
+                      - img [ref=e102]
+                  - button " ADD TO CART" [ref=e103] [cursor=pointer]:
+                    - generic [ref=e104]: 
+                    - text: ADD TO CART
+            - generic [ref=e106]:
+              - link "Instax Mini 12 Camera" [ref=e109] [cursor=pointer]:
+                - /url: /products/instax-mini-12-camera
+                - img "Instax Mini 12 Camera" [ref=e110]
+              - generic [ref=e111]:
+                - heading "Instax Mini 12 Camera" [level=3] [ref=e112]:
+                  - link "Instax Mini 12 Camera" [ref=e113] [cursor=pointer]:
+                    - /url: /products/instax-mini-12-camera
+                - generic [ref=e115]:
+                  - generic [ref=e116]: 
+                  - generic [ref=e117]: 
+                  - generic [ref=e118]: 
+                  - generic [ref=e119]: 
+                  - generic [ref=e120]: 
+                  - text: 353 reviews
+                - generic [ref=e121]: Selfie Mirror | High-Key Mode | Close-Up Lens
+                - generic [ref=e122]:
+                  - text: "M.R.P:"
+                  - deletion [ref=e123]: ₹ 9,499
+                  - insertion [ref=e124]: ₹ 7,499
+                - generic [ref=e126]:
+                  - list [ref=e127]:
+                    - listitem [ref=e128]:
+                      - radio [checked] [ref=e129] [cursor=pointer]
+                      - img [ref=e131]
+                    - listitem [ref=e132]:
+                      - radio [ref=e133] [cursor=pointer]
+                      - img [ref=e135]
+                    - listitem [ref=e136]:
+                      - radio [ref=e137] [cursor=pointer]
+                      - img [ref=e139]
+                    - listitem [ref=e140]:
+                      - radio [ref=e141] [cursor=pointer]
+                      - img [ref=e143]
+                    - listitem [ref=e144]:
+                      - radio [ref=e145] [cursor=pointer]
+                      - img [ref=e147]
+                  - button " ADD TO CART" [ref=e148] [cursor=pointer]:
+                    - generic [ref=e149]: 
+                    - text: ADD TO CART
+            - generic [ref=e151]:
+              - link "Instax Mini 99" [ref=e154] [cursor=pointer]:
+                - /url: /products/mini-99
+                - img "Instax Mini 99" [ref=e155]
+              - generic [ref=e156]:
+                - heading "INSTAX Mini 99" [level=3] [ref=e157]:
+                  - link "INSTAX Mini 99" [ref=e158] [cursor=pointer]:
+                    - /url: /products/mini-99
+                - generic [ref=e160]:
+                  - generic [ref=e161]: 
+                  - generic [ref=e162]: 
+                  - generic [ref=e163]: 
+                  - generic [ref=e164]: 
+                  - generic [ref=e165]: 
+                  - text: 14 reviews
+                - generic [ref=e166]: Mini Camera | Led lights | Color Effect Control
+                - generic [ref=e167]:
+                  - text: "M.R.P:"
+                  - deletion [ref=e168]: ₹ 20,999
+                  - insertion [ref=e169]: ₹ 17,999
+                - generic [ref=e171]:
+                  - list [ref=e172]:
+                    - listitem [ref=e173]:
+                      - radio [checked] [ref=e174] [cursor=pointer]
+                      - img [ref=e176]
+                  - button " ADD TO CART" [ref=e177] [cursor=pointer]:
+                    - generic [ref=e178]: 
+                    - text: ADD TO CART
+            - generic [ref=e180]:
+              - link "Instax Pal" [ref=e183] [cursor=pointer]:
+                - /url: /products/instax-pal
+                - img "Instax Pal" [ref=e184]
+              - generic [ref=e185]:
+                - heading "Instax Pal" [level=3] [ref=e186]:
+                  - link "Instax Pal" [ref=e187] [cursor=pointer]:
+                    - /url: /products/instax-pal
+                - generic [ref=e189]:
+                  - generic [ref=e190]: 
+                  - generic [ref=e191]: 
+                  - generic [ref=e192]: 
+                  - generic [ref=e193]: 
+                  - generic [ref=e194]: 
+                  - text: 7 reviews
+                - generic [ref=e195]: Mini Camera | Pre-shutter Sounds | Link Connect
+                - generic [ref=e196]:
+                  - text: "M.R.P:"
+                  - deletion [ref=e197]: ₹ 13,999
+                  - insertion [ref=e198]: ₹ 10,999
+                - generic [ref=e200]:
+                  - list [ref=e201]:
+                    - listitem [ref=e202]:
+                      - radio [checked] [ref=e203] [cursor=pointer]
+                      - img [ref=e205]
+                    - listitem [ref=e206]:
+                      - radio [ref=e207] [cursor=pointer]
+                      - img [ref=e209]
+                    - listitem [ref=e210]:
+                      - radio [ref=e211] [cursor=pointer]
+                      - img [ref=e213]
+                    - listitem [ref=e214]:
+                      - radio [ref=e215] [cursor=pointer]
+                      - img [ref=e217]
+                    - listitem [ref=e218]:
+                      - radio [ref=e219] [cursor=pointer]
+                      - img [ref=e221]
+                  - button " ADD TO CART" [ref=e222] [cursor=pointer]:
+                    - generic [ref=e223]: 
+                    - text: ADD TO CART
+            - generic [ref=e225]:
+              - link [ref=e228] [cursor=pointer]:
+                - /url: /products/instax-sq40
+                - img [ref=e229]
+              - generic [ref=e230]:
+                - heading [level=3] [ref=e231]:
+                  - link [ref=e232] [cursor=pointer]:
+                    - /url: /products/instax-sq40
+                    - text: Instax SQ40
+                - generic [ref=e234]:
+                  - generic [ref=e235]: 
+                  - generic [ref=e236]: 
+                  - generic [ref=e237]: 
+                  - generic [ref=e238]: 
+                  - generic [ref=e239]: 
+                  - text: 13 reviews
+                - generic [ref=e240]: Square Prints | Selfie Mode | Auto Exposure
+                - generic [ref=e241]:
+                  - text: "M.R.P:"
+                  - deletion [ref=e242]: ₹ 16,999
+                  - insertion [ref=e243]: ₹ 13,999
+                - generic [ref=e245]:
+                  - list [ref=e246]:
+                    - listitem [ref=e247]:
+                      - radio [checked] [ref=e248] [cursor=pointer]
+                      - img [ref=e250]
+                  - button [ref=e251] [cursor=pointer]:
+                    - generic [ref=e252]: 
+                    - text: ADD TO CART
+            - generic [ref=e254]:
+              - link [ref=e257] [cursor=pointer]:
+                - /url: /products/mini-link-3
+                - img [ref=e258]
+              - generic [ref=e259]:
+                - heading [level=3] [ref=e260]:
+                  - link [ref=e261] [cursor=pointer]:
+                    - /url: /products/mini-link-3
+                    - text: Mini Link 3
+                - generic [ref=e262]: Smartphone Printer | Instax AiR Studio | Click to Collage | Colorful LED Lights
+                - generic [ref=e263]:
+                  - text: "M.R.P:"
+                  - deletion [ref=e264]: ₹ 13,999
+                  - insertion [ref=e265]: ₹ 10,999
+                - generic [ref=e267]:
+                  - list [ref=e268]:
+                    - listitem [ref=e269]:
+                      - radio [checked] [ref=e270] [cursor=pointer]
+                      - img [ref=e272]
+                    - listitem [ref=e273]:
+                      - radio [ref=e274] [cursor=pointer]
+                      - img [ref=e276]
+                    - listitem [ref=e277]:
+                      - radio [ref=e278] [cursor=pointer]
+                      - img [ref=e280]
+                  - button [ref=e281] [cursor=pointer]:
+                    - generic [ref=e282]: 
+                    - text: ADD TO CART
+            - generic [ref=e284]:
+              - link [ref=e287] [cursor=pointer]:
+                - /url: /products/instax-square-link-printer
+                - img [ref=e288]
+              - generic [ref=e289]:
+                - heading [level=3] [ref=e290]:
+                  - link [ref=e291] [cursor=pointer]:
+                    - /url: /products/instax-square-link-printer
+                    - text: Instax Square link Printer
+                - generic [ref=e292]: Square Printer | AR Effects | Instax Connect
+                - generic [ref=e293]: "M.R.P: ₹ 20,999"
+                - generic [ref=e295]:
+                  - list [ref=e296]:
+                    - listitem [ref=e297]:
+                      - radio [checked] [ref=e298] [cursor=pointer]
+                      - img [ref=e300]
+                    - listitem [ref=e301]:
+                      - radio [ref=e302] [cursor=pointer]
+                      - img [ref=e304]
+                  - button [ref=e305] [cursor=pointer]:
+                    - generic [ref=e306]: 
+                    - text: ADD TO CART
+          - button "Next" [ref=e307] [cursor=pointer]
+      - generic [ref=e311]:
+        - generic [ref=e314]:
+          - heading "Only on instax.in" [level=3] [ref=e315]
+          - paragraph
+        - generic [ref=e319]:
+          - heading "FREE SHIPPING*" [level=3] [ref=e320]
+          - paragraph
+        - generic [ref=e324]:
+          - heading "SECURED PAYMENTS" [level=3] [ref=e325]
+          - paragraph
+        - generic [ref=e329]:
+          - heading "SURPRISES" [level=3] [ref=e330]
+          - paragraph
+      - generic [ref=e332]:
+        - generic [ref=e333]:
+          - heading "A Guide to Our Products" [level=3] [ref=e334]:
+            - generic [ref=e335]: A Guide to Our Products
+          - text: 
+          - generic [ref=e336]: We’ve got the best of the best. Come, take a look!
+        - generic [ref=e339]:
+          - generic [ref=e341]:
+            - link [ref=e342] [cursor=pointer]:
+              - /url: /collections/camera
+            - generic:
+              - generic: Instant Cameras
+            - generic [ref=e344]:
+              - generic [ref=e345]: Explore More
+              - link "+" [ref=e346] [cursor=pointer]:
+                - /url: /collections/camera
+          - generic [ref=e348]:
+            - link [ref=e349] [cursor=pointer]:
+              - /url: /collections/printer
+            - generic:
+              - generic: Smartphone Printers
+            - generic [ref=e351]:
+              - generic [ref=e352]: Explore More
+              - link "+" [ref=e353] [cursor=pointer]:
+                - /url: /collections/printer
+          - generic [ref=e355]:
+            - link [ref=e356] [cursor=pointer]:
+              - /url: /collections/films
+            - generic:
+              - generic: Films
+            - generic [ref=e358]:
+              - generic [ref=e359]: Explore More
+              - link "+" [ref=e360] [cursor=pointer]:
+                - /url: /collections/films
+          - generic [ref=e362]:
+            - link [ref=e363] [cursor=pointer]:
+              - /url: /collections/accessories
+            - generic:
+              - generic: Accessories
+            - generic [ref=e365]:
+              - generic [ref=e366]: Explore More
+              - link "+" [ref=e367] [cursor=pointer]:
+                - /url: /collections/accessories
+          - generic [ref=e369]:
+            - link [ref=e370] [cursor=pointer]:
+              - /url: /collections/gift-box
+            - generic:
+              - generic: Gift Boxes
+            - generic [ref=e372]:
+              - generic [ref=e373]: Explore More
+              - link "+" [ref=e374] [cursor=pointer]:
+                - /url: /collections/gift-box
+      - generic [ref=e377]:
+        - generic [ref=e381]:
+          - img [ref=e383]
+          - link [ref=e384] [cursor=pointer]:
+            - /url: /pages/instax-up
+        - list
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - heading "Get the Full instax Experience" [level=3] [ref=e389]:
+            - generic [ref=e390]: Get the Full instax Experience
+          - text: 
+          - generic [ref=e391]: AIM,shoot,print, use - it’s time to have fun!
+        - generic [ref=e393]:
+          - generic [ref=e394]:
+            - generic [ref=e395]:
+              - link [ref=e397] [cursor=pointer]:
+                - /url: https://www.youtube.com/embed/isY6qGINYcA
+                - img [ref=e398]
+                - img [ref=e399]
+              - generic [ref=e400]: Instax | don’t just take, give. Ft. Kriti Sanon | Fujifilm
+            - generic [ref=e401]:
+              - link [ref=e403] [cursor=pointer]:
+                - /url: https://www.youtube.com/embed/P4AAh0fpUag
+                - img [ref=e404]
+                - img [ref=e405]
+              - generic [ref=e406]: Instax | don’t just take, give. Ft. ‪@kartikaaryan7898‬ | Fujifilm
+            - generic [ref=e407]:
+              - link [ref=e409] [cursor=pointer]:
+                - /url: https://www.youtube.com/embed/qtFjjmUhkRQ
+                - img [ref=e410]
+                - img [ref=e411]
+              - generic [ref=e412]: Discover the Magic of Instax Film
+          - text: ‹ ›
+      - generic [ref=e415]:
+        - generic [ref=e416]:
+          - heading "What People Love About Us" [level=3] [ref=e417]:
+            - generic [ref=e418]: What People Love About Us
+          - text: 
+          - generic [ref=e419]: Check out what our customers have to say about us.
+        - generic [ref=e420]:
+          - button "Previous" [disabled] [ref=e421] [cursor=pointer]
+          - generic [ref=e423]:
+            - tabpanel [ref=e424]:
+              - generic [ref=e428]:
+                - generic [ref=e429]: I got the instax mini 9 as my birthday gift in 2022. I have had a really good experience with the product and the output it offers. Once got it repaired under warranty for free. Quick and prompt service from Fujifilm!
+                - generic [ref=e431] [cursor=pointer]: +
+                - generic [ref=e432]: "- Shivam Rawat"
+            - tabpanel [ref=e433]:
+              - generic [ref=e437]:
+                - generic [ref=e438]: Ever since I have known about photography is from the date I saw some old pictures of mine, the feel of holding your pictures in your hand which carries the moments you wish to cherish for life, that's what instant camera does for you !!!! 1 have been using instax mini Evo 11 and it's the best possession I have, it's a hybrid camera which not only clicks the picture but also works as a printer so that you don't miss a moment in your life !!!!
+                - generic [ref=e440] [cursor=pointer]: +
+                - generic [ref=e441]: "- Ashmeet Kaur"
+            - tabpanel [ref=e442]:
+              - generic [ref=e446]:
+                - generic [ref=e447]: Totally loveee the Instax camera. super cute and quirky and matches my style!' What I love the most about it, that it captures memories and helps you preserve them forever! A Cuteness bundled into one Instax^ Thank You for helping us create and cherish memories for life!
+                - generic [ref=e449] [cursor=pointer]: +
+                - generic [ref=e450]: "- Utkarsha"
+            - tabpanel [ref=e451]:
+              - generic [ref=e455]:
+                - generic [ref=e456]: The Instax Mini 11 is an excellent instant camera that delivers impressive results. Its compact size and lightweight design make it easy to carry around, while its automatic exposure control and built-in flash ensure that you get the perfect shot every time. The camera is also incredibly easy to use, making it a great choice for beginners. Overall, I highly recommend the Instax Mini 11 to anyone looking for a fun and reliable instant camera.
+                - generic [ref=e458] [cursor=pointer]: +
+                - generic [ref=e459]: "- Juhi Agarwal"
+            - tabpanel [ref=e460]:
+              - generic [ref=e464]:
+                - generic [ref=e465]: “Blush-ing in my selfies!”
+                - generic [ref=e466]: I bought the mini 11 in Blush Pink last year. It’s cute & handy, and I can take effortless selfies now every time I dress up as a Fashion Influencer!
+                - generic [ref=e468] [cursor=pointer]: +
+                - generic [ref=e469]: "- Shriya"
+            - tabpanel [ref=e470]:
+              - generic [ref=e474]:
+                - generic [ref=e475]: “Evolving my art”
+                - generic [ref=e476]: A GREAT buy! The mini EVO’s built-in lens and film effects take my photography game to the next level!
+                - generic [ref=e478] [cursor=pointer]: +
+                - generic [ref=e479]: "- Jai"
+            - tabpanel [ref=e480]:
+              - generic [ref=e484]:
+                - generic [ref=e485]: “Cutest camera ever!”
+                - generic [ref=e486]: I got it as a gift on my birthday and I love it! The colour of the camera and its picture quality is really amazing! I have clicked so many moments worth cherishing with this instax mini 9!
+                - generic [ref=e488] [cursor=pointer]: +
+                - generic [ref=e489]: "- Disha"
+          - button "Next" [ref=e490] [cursor=pointer]
+          - tablist [ref=e491]:
+            - tab "1 of 3" [selected] [ref=e492] [cursor=pointer]: "1"
+            - tab "2 of 3" [ref=e493] [cursor=pointer]: "2"
+            - tab "3 of 3" [ref=e494] [cursor=pointer]: "3"
+            - tab "4 of 3" [ref=e495] [cursor=pointer]: "4"
+            - tab "5 of 3" [ref=e496] [cursor=pointer]: "5"
+      - generic: 
+      - generic [ref=e498]:
+        - generic [ref=e499]:
+          - heading "the instax aesthetics" [level=2] [ref=e500]
+          - paragraph [ref=e501]: when it comes to creative & technological inspiration, we've go
+        - generic [ref=e502]:
+          - button "Previous" [disabled] [ref=e503] [cursor=pointer]
+          - generic [ref=e505]:
+            - generic [ref=e506]:
+              - link "Snap the perfect gift- The Ultimate Secret Santa Camera Gift Guide for 2025!" [ref=e507] [cursor=pointer]:
+                - /url: /blogs/blog/the-ultimate-secret-santa-camera-gift-guide-elevate-your-gifting-game
+                - img "Snap the perfect gift- The Ultimate Secret Santa Camera Gift Guide for 2025!" [ref=e508]
+              - generic [ref=e509]:
+                - paragraph [ref=e510]:
+                  - generic [ref=e511]: 
+                  - time [ref=e512]: December 14, 2025
+                - heading "Snap the perfect gift- The Ultimate Secret Santa Camera Gift Guide for 2025!" [level=3] [ref=e513]:
+                  - link "Snap the perfect gift- The Ultimate Secret Santa Camera Gift Guide for 2025!" [ref=e514] [cursor=pointer]:
+                    - /url: /blogs/blog/the-ultimate-secret-santa-camera-gift-guide-elevate-your-gifting-game
+                - generic [ref=e515]:
+                  - button " Share" [ref=e516] [cursor=pointer]:
+                    - generic [ref=e517]: 
+                    - text: Share
+                  - link "Read More" [ref=e518] [cursor=pointer]:
+                    - /url: /blogs/blog/the-ultimate-secret-santa-camera-gift-guide-elevate-your-gifting-game
+            - generic [ref=e519]:
+              - link "Snap into This New Year with Instax’s New Year Gift Ideas | Fujifilm Instax" [ref=e520] [cursor=pointer]:
+                - /url: /blogs/blog/snap-into-this-new-year-with-instax-s-new-year-gift-ideas-fujifilm-instax
+                - img "Snap into This New Year with Instax’s New Year Gift Ideas | Fujifilm Instax" [ref=e521]
+              - generic [ref=e522]:
+                - paragraph [ref=e523]:
+                  - generic [ref=e524]: 
+                  - time [ref=e525]: December 5, 2025
+                - heading "Snap into This New Year with Instax’s New Year Gift Ideas | Fujifilm Instax" [level=3] [ref=e526]:
+                  - link "Snap into This New Year with Instax’s New Year Gift Ideas | Fujifilm Instax" [ref=e527] [cursor=pointer]:
+                    - /url: /blogs/blog/snap-into-this-new-year-with-instax-s-new-year-gift-ideas-fujifilm-instax
+                - generic [ref=e528]:
+                  - button " Share" [ref=e529] [cursor=pointer]:
+                    - generic [ref=e530]: 
+                    - text: Share
+                  - link "Read More" [ref=e531] [cursor=pointer]:
+                    - /url: /blogs/blog/snap-into-this-new-year-with-instax-s-new-year-gift-ideas-fujifilm-instax
+            - generic [ref=e532]:
+              - link "Father’s Day Gift Ideas That Say<br /> “Thank You Dad” Without Words" [ref=e533] [cursor=pointer]:
+                - /url: /blogs/blog/fathers-day-gift-ideas
+                - img "Father’s Day Gift Ideas That Say<br /> “Thank You Dad” Without Words" [ref=e534]
+              - generic [ref=e535]:
+                - paragraph [ref=e536]:
+                  - generic [ref=e537]: 
+                  - time [ref=e538]: June 10, 2025
+                - heading "Father’s Day Gift Ideas That Say “Thank You Dad” Without Words" [level=3] [ref=e539]:
+                  - link "Father’s Day Gift Ideas That Say “Thank You Dad” Without Words" [ref=e540] [cursor=pointer]:
+                    - /url: /blogs/blog/fathers-day-gift-ideas
+                    - text: Father’s Day Gift Ideas That Say
+                    - text: “Thank You Dad” Without Words
+                - generic [ref=e541]:
+                  - button " Share" [ref=e542] [cursor=pointer]:
+                    - generic [ref=e543]: 
+                    - text: Share
+                  - link "Read More" [ref=e544] [cursor=pointer]:
+                    - /url: /blogs/blog/fathers-day-gift-ideas
+            - generic [ref=e545]:
+              - link [ref=e546] [cursor=pointer]:
+                - /url: /blogs/blog/the-ultimate-guide-to-mobile-photo-printers
+                - img [ref=e547]
+              - generic [ref=e548]:
+                - paragraph [ref=e549]:
+                  - generic [ref=e550]: 
+                  - time [ref=e551]: January 23, 2025
+                - heading [level=3] [ref=e552]:
+                  - link [ref=e553] [cursor=pointer]:
+                    - /url: /blogs/blog/the-ultimate-guide-to-mobile-photo-printers
+                    - text: The Ultimate Guide to Mobile Photo Printers
+                - generic [ref=e554]:
+                  - button [ref=e555] [cursor=pointer]:
+                    - generic [ref=e556]: 
+                    - text: Share
+                  - link [ref=e557] [cursor=pointer]:
+                    - /url: /blogs/blog/the-ultimate-guide-to-mobile-photo-printers
+                    - text: Read More
+            - generic [ref=e558]:
+              - link [ref=e559] [cursor=pointer]:
+                - /url: /blogs/blog/the-art-of-instant-camera-photos
+                - img [ref=e560]
+              - generic [ref=e561]:
+                - paragraph [ref=e562]:
+                  - generic [ref=e563]: 
+                  - time [ref=e564]: January 23, 2025
+                - heading [level=3] [ref=e565]:
+                  - link [ref=e566] [cursor=pointer]:
+                    - /url: /blogs/blog/the-art-of-instant-camera-photos
+                    - text: "The Art of Instant Camera Photos: Capture, Create, Cherish"
+                - generic [ref=e567]:
+                  - button [ref=e568] [cursor=pointer]:
+                    - generic [ref=e569]: 
+                    - text: Share
+                  - link [ref=e570] [cursor=pointer]:
+                    - /url: /blogs/blog/the-art-of-instant-camera-photos
+                    - text: Read More
+            - generic [ref=e571]:
+              - link [ref=e572] [cursor=pointer]:
+                - /url: /blogs/blog/take-the-ultimate-shot-with-an-instax-mini-camera
+                - img [ref=e573]
+              - generic [ref=e574]:
+                - paragraph [ref=e575]:
+                  - generic [ref=e576]: 
+                  - time [ref=e577]: January 22, 2025
+                - heading [level=3] [ref=e578]:
+                  - link [ref=e579] [cursor=pointer]:
+                    - /url: /blogs/blog/take-the-ultimate-shot-with-an-instax-mini-camera
+                    - text: Take the Ultimate Shot with an Instax Mini Camera
+                - generic [ref=e580]:
+                  - button [ref=e581] [cursor=pointer]:
+                    - generic [ref=e582]: 
+                    - text: Share
+                  - link [ref=e583] [cursor=pointer]:
+                    - /url: /blogs/blog/take-the-ultimate-shot-with-an-instax-mini-camera
+                    - text: Read More
+          - button "Next" [ref=e584] [cursor=pointer]
+    - contentinfo [ref=e585]:
+      - generic [ref=e587]:
+        - generic [ref=e589]:
+          - generic [ref=e590]:
+            - complementary [ref=e592]:
+              - generic [ref=e594]:
+                - paragraph [ref=e595]:
+                  - link "Fujifilm Instax" [ref=e596] [cursor=pointer]:
+                    - /url: /
+                    - img "Fujifilm Instax" [ref=e597]
+                - paragraph [ref=e598]:
+                  - generic [ref=e599]: 
+                  - generic [ref=e600]: Building No. 5, Tower A, 8th Floor, DLF Cyber City, Gurugram, Haryana 122002
+                - paragraph
+                - paragraph [ref=e601]:
+                  - generic [ref=e602]: 
+                  - link "instax@fujifilm.com" [ref=e604] [cursor=pointer]:
+                    - /url: mailto:instax@fujifilm.com
+                - paragraph [ref=e605]:
+                  - generic [ref=e606]: 
+                  - link "1800- 2023346" [ref=e608] [cursor=pointer]:
+                    - /url: tel:1800-%202023346
+                - list [ref=e610]:
+                  - listitem [ref=e611]:
+                    - link "" [ref=e612] [cursor=pointer]:
+                      - /url: https://www.facebook.com/InstaxIndiaOfficial/
+                      - generic [ref=e613]: 
+                  - listitem [ref=e614]:
+                    - link "" [ref=e615] [cursor=pointer]:
+                      - /url: https://twitter.com/IndiaInstax
+                      - generic [ref=e616]: 
+                  - listitem [ref=e617]:
+                    - link "" [ref=e618] [cursor=pointer]:
+                      - /url: https://www.instagram.com/instaxindia/?hl=en
+                      - generic [ref=e619]: 
+                  - listitem [ref=e620]:
+                    - link "" [ref=e621] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/instaxindia
+                      - generic [ref=e622]: 
+                  - listitem [ref=e623]:
+                    - link "" [ref=e624] [cursor=pointer]:
+                      - /url: https://www.youtube.com/channel/UCAbnot-C1UN3R-rzCyOMT7A
+                      - generic [ref=e625]: 
+            - complementary [ref=e627]:
+              - heading "Product" [level=3] [ref=e628]:
+                - generic [ref=e629]: Product
+              - list [ref=e631]:
+                - listitem [ref=e632]:
+                  - link "Cameras" [ref=e633] [cursor=pointer]:
+                    - /url: /collections/camera
+                - listitem [ref=e634]:
+                  - link "Printers" [ref=e635] [cursor=pointer]:
+                    - /url: /collections/printer
+                - listitem [ref=e636]:
+                  - link "Films" [ref=e637] [cursor=pointer]:
+                    - /url: /collections/films
+                - listitem [ref=e638]:
+                  - link "Accessories" [ref=e639] [cursor=pointer]:
+                    - /url: /collections/accessories
+                - listitem [ref=e640]:
+                  - link "Gift Boxes" [ref=e641] [cursor=pointer]:
+                    - /url: /collections/gift-box
+                - listitem [ref=e642]:
+                  - link "Hot Deals" [ref=e643] [cursor=pointer]:
+                    - /url: /collections/all-products
+            - complementary [ref=e645]:
+              - heading "Explore" [level=3] [ref=e646]:
+                - generic [ref=e647]: Explore
+              - list [ref=e649]:
+                - listitem [ref=e650]:
+                  - link "About Us" [ref=e651] [cursor=pointer]:
+                    - /url: /pages/about-fujifilm-instax
+                - listitem [ref=e652]:
+                  - link "Instax Rewards" [ref=e653] [cursor=pointer]:
+                    - /url: https://www.instax.in/pages/rewards
+                - listitem [ref=e654]:
+                  - link "Articles" [ref=e655] [cursor=pointer]:
+                    - /url: /blogs/blog
+                - listitem [ref=e656]:
+                  - link "DIYs" [ref=e657] [cursor=pointer]:
+                    - /url: /blogs/ideas
+            - complementary [ref=e659]:
+              - heading "Support" [level=3] [ref=e660]:
+                - generic [ref=e661]: Support
+              - list [ref=e663]:
+                - listitem [ref=e664]:
+                  - link "Download Invoice" [ref=e665] [cursor=pointer]:
+                    - /url: https://www.instax.in/account/login
+                - listitem [ref=e666]:
+                  - link "Track Order" [ref=e667] [cursor=pointer]:
+                    - /url: https://rajkarinc.shipway.com/track
+                - listitem [ref=e668]:
+                  - link "Service Center" [ref=e669] [cursor=pointer]:
+                    - /url: https://www.instax.in/apps/where-to-buy
+                - listitem [ref=e670]:
+                  - link "Retail Stores" [ref=e671] [cursor=pointer]:
+                    - /url: https://www.instax.in/apps/where-to-buy
+                - listitem [ref=e672]:
+                  - link "Warranty Registration" [ref=e673] [cursor=pointer]:
+                    - /url: /pages/warranty-registration
+                - listitem [ref=e674]:
+                  - link "Corporate Query" [ref=e675] [cursor=pointer]:
+                    - /url: /pages/corporate-query
+            - complementary [ref=e677]:
+              - heading "Apps" [level=3] [ref=e678]:
+                - generic [ref=e679]: Apps
+              - list [ref=e681]:
+                - listitem [ref=e682]:
+                  - link "Instax UP" [ref=e683] [cursor=pointer]:
+                    - /url: /pages/instax-up
+                - listitem [ref=e684]:
+                  - link "Instax Biz" [ref=e685] [cursor=pointer]:
+                    - /url: /pages/instax-biz
+          - text:        
+        - complementary [ref=e688]:
+          - heading "Newsletter Signup" [level=3] [ref=e689]:
+            - generic [ref=e690]: Newsletter Signup
+          - generic [ref=e691]:
+            - paragraph [ref=e692]: Sign up to receive more information about our products
+            - generic [ref=e695]:
+              - textbox "Your email address" [ref=e697]
+              - button "Subscribe" [ref=e699] [cursor=pointer]
+      - generic [ref=e703]:
+        - generic [ref=e704]: Copyright © 2026 Instax All Rights Reserved.
+        - list [ref=e706]:
+          - listitem [ref=e707]:
+            - link "Fraudulent Websites" [ref=e708] [cursor=pointer]:
+              - /url: /pages/fraudulent-websites
+          - listitem [ref=e709]:
+            - link "Privacy Policy" [ref=e710] [cursor=pointer]:
+              - /url: /pages/privacy-policy
+          - listitem [ref=e711]:
+            - link "Terms of Service" [ref=e712] [cursor=pointer]:
+              - /url: /policies/terms-of-service
+          - listitem [ref=e713]:
+            - link "Refund policy" [ref=e714] [cursor=pointer]:
+              - /url: /pages/refund-policy
+          - listitem [ref=e715]:
+            - link "Delivery Policy" [ref=e716] [cursor=pointer]:
+              - /url: /pages/delivery-policy
+  - generic [ref=e718]:
+    - generic [ref=e719]:
+      - generic [ref=e720]: Shopping cart
+      - generic [ref=e721] [cursor=pointer]: 
+    - generic [ref=e724]:
+      - generic [ref=e725]:
+        - generic [ref=e726]:  
+        - paragraph [ref=e727]: Your cart is empty.
+        - paragraph [ref=e728]:
+          - link "Return To Shop" [ref=e729] [cursor=pointer]:
+            - /url: /collections/all
+            - generic [ref=e730]: Return To Shop
+      - text:    
+    - generic:
+      - generic: Add Order Note
+      - textbox "Add Order Note":
+        - /placeholder: How can we help you?
+      - button "Save"
+      - button "Cancel"
+    - generic:
+      - generic:
+        - heading "Estimate Shipping" [level=3]
+        - paragraph:
+          - text: Country
+          - combobox "Country":
+            - option "India" [selected]
+        - paragraph:
+          - text: Province
+          - combobox "Province":
+            - option "Andaman and Nicobar Islands" [selected]
+            - option "Andhra Pradesh"
+            - option "Arunachal Pradesh"
+            - option "Assam"
+            - option "Bihar"
+            - option "Chandigarh"
+            - option "Chhattisgarh"
+            - option "Dadra and Nagar Haveli"
+            - option "Daman and Diu"
+            - option "Delhi"
+            - option "Goa"
+            - option "Gujarat"
+            - option "Haryana"
+            - option "Himachal Pradesh"
+            - option "Jammu and Kashmir"
+            - option "Jharkhand"
+            - option "Karnataka"
+            - option "Kerala"
+            - option "Ladakh"
+            - option "Lakshadweep"
+            - option "Madhya Pradesh"
+            - option "Maharashtra"
+            - option "Manipur"
+            - option "Meghalaya"
+            - option "Mizoram"
+            - option "Nagaland"
+            - option "Odisha"
+            - option "Puducherry"
+            - option "Punjab"
+            - option "Rajasthan"
+            - option "Sikkim"
+            - option "Tamil Nadu"
+            - option "Telangana"
+            - option "Tripura"
+            - option "Uttar Pradesh"
+            - option "Uttarakhand"
+            - option "West Bengal"
+        - paragraph:
+          - text: Postal/Zip Code
+          - textbox "Postal/Zip Code"
+        - paragraph:
+          - button "Calculate Shipping"
+        - paragraph:
+          - button "Cancel"
+    - generic:
+      - generic:
+        - heading "Add A Coupon" [level=3]
+        - paragraph: Coupon code will work on checkout page
+        - paragraph:
+          - textbox "Coupon code"
+        - paragraph:
+          - button "Save"
+        - button "Cancel"
+  - generic: 
+  - generic [ref=e733]:
+    - generic [ref=e734]:
+      - heading "Search Our Site" [level=3] [ref=e735]
+      - generic [ref=e736] [cursor=pointer]: 
+    - generic [ref=e737]:
+      - search [ref=e738]:
+        - combobox [ref=e740]:
+          - option "All Categories" [selected]
+          - option "Cameras"
+        - generic [ref=e741]:
+          - textbox "Search for products" [ref=e742]
+          - button "":
+            - generic: 
+      - generic [ref=e743]: Need some inspiration?
+      - generic [ref=e746]:
+        - generic [ref=e747]:
+          - link "Instax mini film - 20 sheets per pack" [ref=e749] [cursor=pointer]:
+            - /url: /products/mini-film-20-shots
+            - img "Instax mini film - 20 sheets per pack" [ref=e750]
+          - generic [ref=e751]:
+            - link "Instax mini film - 20 sheets per pack" [ref=e752] [cursor=pointer]:
+              - /url: /products/mini-film-20-shots
+            - text: ₹ 1,399
+        - generic [ref=e753]:
+          - link "Instax Mini Films - 10 Shots sheets per pack" [ref=e755] [cursor=pointer]:
+            - /url: /products/mini-films-10-shots
+            - img "Instax Mini Films - 10 Shots sheets per pack" [ref=e756]
+          - generic [ref=e757]:
+            - link "Instax Mini Films - 10 Shots sheets per pack" [ref=e758] [cursor=pointer]:
+              - /url: /products/mini-films-10-shots
+            - text: "M.R.P:"
+            - deletion [ref=e759]: ₹ 799
+            - insertion [ref=e760]: ₹ 699
+        - generic [ref=e761]:
+          - link "Mini Heart Sketch Film" [ref=e763] [cursor=pointer]:
+            - /url: /products/mini-heart-sketch-film
+            - img "Mini Heart Sketch Film" [ref=e764]
+          - generic [ref=e765]:
+            - link "Mini Heart Sketch Film" [ref=e766] [cursor=pointer]:
+              - /url: /products/mini-heart-sketch-film
+            - text: "M.R.P:"
+            - deletion [ref=e767]: ₹ 899
+            - insertion [ref=e768]: ₹ 749
+        - generic [ref=e769]:
+          - link "Instax wide film - 20 sheets per pack" [ref=e771] [cursor=pointer]:
+            - /url: /products/wide-film-20-shots
+            - img "Instax wide film - 20 sheets per pack" [ref=e772]
+          - generic [ref=e773]:
+            - link "Instax wide film - 20 sheets per pack" [ref=e774] [cursor=pointer]:
+              - /url: /products/wide-film-20-shots
+            - text: "M.R.P:"
+            - deletion [ref=e775]: ₹ 1,899
+            - insertion [ref=e776]: ₹ 1,799
+        - generic [ref=e777]:
+          - link "Instax mini Monochrome Film Pack (10 sheets)" [ref=e779] [cursor=pointer]:
+            - /url: /products/instax%C2%AE-mini-monochrome
+            - img "Instax mini Monochrome Film Pack (10 sheets)" [ref=e780]
+          - generic [ref=e781]:
+            - link "Instax mini Monochrome Film Pack (10 sheets)" [ref=e782] [cursor=pointer]:
+              - /url: /products/instax%C2%AE-mini-monochrome
+            - text: "M.R.P:"
+            - deletion [ref=e783]: ₹ 899
+            - insertion [ref=e784]: ₹ 749
+        - link "View All " [ref=e785] [cursor=pointer]:
+          - /url: /collections/films
+          - text: View All
+          - generic [ref=e786]: 
+  - generic:     
+  - generic "Rewards" [ref=e787]:
+    - generic [ref=e790] [cursor=pointer]:
+      - img [ref=e791]
+      - generic [ref=e796]: Fujifilm Instax
+  - iframe
+  - iframe
+  - iframe [ref=e797]:
+    - generic [active]:
+      - generic: success
+  - iframe [ref=e798]:
+    - img [ref=f12e3] [cursor=pointer]
+```

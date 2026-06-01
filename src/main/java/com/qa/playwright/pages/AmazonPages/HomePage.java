@@ -1,7 +1,6 @@
 package com.qa.playwright.pages.AmazonPages;
 
 import com.microsoft.playwright.Page;
-import com.qa.playwright.base.BasePage;
 import com.qa.playwright.utilities.ReusableFunctions;
 import org.apache.log4j.Logger;
 

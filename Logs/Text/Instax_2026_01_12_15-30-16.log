@@ -1,0 +1,8 @@
+2026-01-12 15:30:16 INFO  BaseTest:85 - Log4j initialized for this run: 2026_01_12_15-30-16
+2026-01-12 15:30:16 INFO  BaseTest:58 - Browser initialize
+2026-01-12 15:30:37 INFO  BaseTest:12 - Search Test Started.
+2026-01-12 15:30:41 INFO  BaseTest:77 - Pressing key: Enter
+2026-01-12 15:30:43 INFO  BaseTest:79 - Successfully pressed key: Enter
+2026-01-12 15:30:43 INFO  BaseTest:302 - Verifying Elements
+2026-01-12 15:30:43 INFO  BaseTest:16 - Search Test Ended.
+2026-01-12 15:30:43 INFO  BaseTest:71 - Closing browser

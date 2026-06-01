@@ -1,0 +1,17 @@
+com\qa\playwright\pages\AmazonPages\HomePage.class
+com\qa\playwright\pages\PracticeHomePage.class
+com\qa\playwright\pages\AmazonPages\CartPage.class
+com\qa\playwright\pages\SwagLabPages\swagLabLoginPage.class
+com\qa\playwright\pages\OrangeHRMPages\orangeHrmHomePage.class
+com\qa\playwright\base\BasePage.class
+com\qa\playwright\listeners\ExtentReportListener.class
+com\qa\playwright\pages\TestAutomationPages\testAutomationHomePage.class
+com\qa\playwright\pages\OrangeHRMPages\orangeHrmLeavePage.class
+com\qa\playwright\utilities\ReusableFunctions.class
+com\qa\playwright\constants\AppConstants.class
+com\qa\playwright\pages\LoginPage.class
+com\qa\playwright\pages\Instax\instaxHomePage.class
+com\qa\playwright\pages\SwagLabPages\swagLabCartPage.class
+com\qa\playwright\factory\PlaywrightFactory.class
+com\qa\playwright\pages\SwagLabPages\swagLabHomePage.class
+com\qa\playwright\pages\OrangeHRMPages\orangeHrmLoginPage.class

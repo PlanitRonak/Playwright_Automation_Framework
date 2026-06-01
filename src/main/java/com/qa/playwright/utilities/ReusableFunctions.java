@@ -1,9 +1,6 @@
 package com.qa.playwright.utilities;
 
-import com.microsoft.playwright.BrowserContext;
-import com.microsoft.playwright.ElementHandle;
-import com.microsoft.playwright.Locator;
-import com.microsoft.playwright.Page;
+import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.LoadState;
 import com.microsoft.playwright.options.SelectOption;
 import com.qa.playwright.pages.SwagLabPages.swagLabCartPage;
@@ -13,6 +10,7 @@ import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -27,14 +25,39 @@ public class ReusableFunctions {
 
     public void clickElement(Locator element){
         if(element.isDisabled()) {
+            logger.error("Element not clickable");
             Assert.fail(element+" not Clickable");
         } else {
+            logger.info("Element Clicked");
             element.click();
+        }
+    }
+
+    public void clickElement(String element){
+        page.waitForSelector(element);
+        Locator locatedElement = page.locator(element);
+        if(locatedElement.isDisabled()) {
+            logger.error("Element not clickable");
+            Assert.fail(element+" not Clickable");
+        } else {
+            logger.info("Element Clicked");
+            locatedElement.click();
         }
     }
 
     public void selectOption(String dropDown, String value) {
         page.locator(dropDown).selectOption(new SelectOption().setLabel(value));
+    }
+
+    public void selectCustomDropDown(String optionsLocator, String value) {
+        page.waitForSelector(optionsLocator);
+        Locator options = page.locator(optionsLocator);
+        for (int i = 0 ; i < options.count() ; i++) {
+            if(options.nth(i).textContent().equals(value)){
+                clickElement(options.nth(i));
+                break;
+            }
+        }
     }
 
     public String getPrice(String input) {
@@ -65,6 +88,22 @@ public class ReusableFunctions {
 
     public void keyPress(String key) {
         page.keyboard().press(key);
+    }
+
+    /**
+     * Presses a key on the keyboard with logging and error handling.
+     * This is a reusable generic function to simulate pressing any key from the keyboard.
+     * @param key The key to press (e.g., "Enter", "a", "Control+a", "Tab")
+     */
+    public void pressKey(String key) {
+        try {
+            logger.info("Pressing key: " + key);
+            page.keyboard().press(key);
+            logger.info("Successfully pressed key: " + key);
+        } catch (Exception e) {
+            logger.error("Error while pressing key: " + key + ". Error: " + e.getMessage());
+            throw new RuntimeException("Failed to press key: " + key, e);
+        }
     }
 
     public void sendKeys(String locator, String value) {
@@ -128,9 +167,11 @@ public class ReusableFunctions {
 
     public void enterText (String locator,String Value) {
         try{
+            logger.info("Entering Text");
             page.fill(locator, Value);
         } catch (Exception e) {
-            System.out.println("Error While Entering Text");
+            logger.error("Error while entering text");
+            Assert.fail("Error while entering text");
         }
     }
 
@@ -278,5 +319,65 @@ public class ReusableFunctions {
         Assert.assertEquals(CartPage.getPrice(), total, "Price is Different");
         HomePage = CartPage.navigateToHome();
         logger.info("Add to Cart test Ended");
+    }
+
+    public boolean verifySearch(String Locator, String productName) {
+        Locator elements = page.locator(Locator);
+        boolean flag = false;
+        logger.info("Verifying Elements");
+        for (int i = 0 ; i < elements.count() ; i++) {
+            if (elements.nth(i).textContent().contains(productName)) flag = true;
+        }
+        return flag;
+    }
+
+    public void addToCart(List<String> Items, Locator homePageItems) {
+        Items.forEach(item -> {
+            for(int i = 0 ; i < homePageItems.count() ; i++) {
+                if(homePageItems.nth(i).textContent().equals(item)) {
+                    homePageItems.nth(i).locator("xpath=following-sibling::div[@class='addtocart_box_custom']//button").click();
+                }
+            }
+        });
+    }
+
+    public boolean verifyLink(String anchorTagLocator) {
+        logger.info("Verifying Links");
+        page.waitForSelector(anchorTagLocator);
+        Locator linkElements = page.locator(anchorTagLocator);
+        for (int i = 0 ; i < linkElements.count() ; i++) {
+            String href = linkElements.nth(i).getAttribute("href");
+            if (href != null && !href.isEmpty()) {
+                try {
+                    // Create API request context
+                    APIRequestContext request = Playwright.create().request().newContext(new APIRequest.NewContextOptions()
+                            .setExtraHTTPHeaders(
+                                    Map.of(
+                                            "User-Agent",
+                                            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120",
+                                            "Accept", "*/*",
+                                            "Accept-Language", "en-US,en;q=0.9"
+                                    )
+                            )
+
+                    );
+                    APIResponse response = request.get(href);
+                    int statusCode = response.status();
+                    if(statusCode == 999) {
+                        logger.info("Blocked (999): " + href + " | Status: " + statusCode);
+                        continue;
+                    } else if (statusCode >= 400) {
+                        logger.info("Broken link: " + href + " | Status: " + statusCode);
+                    } else {
+                        logger.info("Valid link: " + href + " | Status: " + statusCode);
+                    }
+                    request.dispose();
+                } catch (Exception e) {
+                    logger.error("Error checking link: " + href + " " + e.getMessage());
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }

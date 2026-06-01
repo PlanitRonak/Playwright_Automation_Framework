@@ -1,0 +1,10 @@
+2026-02-27 11:57:16 INFO  BaseTest:92 - Log4j initialized for this run: 2026_02_27_11-57-16
+2026-02-27 11:57:16 INFO  BaseTest:64 - Browser initialize
+2026-02-27 11:57:53 INFO  BaseTest:12 - Search Test Started.
+2026-02-27 11:57:53 INFO  BaseTest:32 - Element Clicked
+2026-02-27 11:57:55 INFO  BaseTest:171 - Entering Text
+2026-02-27 11:57:57 INFO  BaseTest:101 - Pressing key: Enter
+2026-02-27 11:57:59 INFO  BaseTest:103 - Successfully pressed key: Enter
+2026-02-27 11:57:59 INFO  BaseTest:328 - Verifying Elements
+2026-02-27 11:57:59 INFO  BaseTest:16 - Search Test Ended.
+2026-02-27 11:57:59 INFO  BaseTest:78 - Closing browser

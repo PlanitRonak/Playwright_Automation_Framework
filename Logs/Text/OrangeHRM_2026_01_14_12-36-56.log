@@ -1,0 +1,5 @@
+2026-01-14 12:36:56 INFO  BaseTest:88 - Log4j initialized for this run: 2026_01_14_12-36-56
+2026-01-14 12:36:56 INFO  BaseTest:60 - Browser initialize
+2026-01-14 12:37:16 INFO  BaseTest:323 - Verifying Links
+2026-01-14 12:37:18 INFO  BaseTest:350 - Valid link: https://www.youtube.com/c/OrangeHRMInc | Status: 200
+2026-01-14 12:37:18 INFO  BaseTest:74 - Closing browser

@@ -1,6 +1,5 @@
 package com.qa.playwright.pages.SwagLabPages;
 
-import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
 import com.qa.playwright.utilities.ReusableFunctions;
