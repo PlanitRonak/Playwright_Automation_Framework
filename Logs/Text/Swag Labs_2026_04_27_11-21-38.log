@@ -1,0 +1,31 @@
+2026-04-27 11:21:38 INFO  BaseTest:92 - Log4j initialized for this run: 2026_04_27_11-21-38
+2026-04-27 11:21:38 INFO  BaseTest:64 - Browser initialize
+2026-04-27 11:21:45 INFO  BaseTest:36 - Login TestCases started
+2026-04-27 11:21:49 INFO  BaseTest:39 - Entered credentials
+2026-04-27 11:21:56 INFO  BaseTest:42 - Verify login
+2026-04-27 11:21:56 INFO  BaseTest:45 - Login successful
+2026-04-27 11:21:56 INFO  BaseTest:312 - Add to Cart Test Start
+2026-04-27 11:21:56 INFO  BaseTest:313 - Adding Items to Cart
+2026-04-27 11:21:56 INFO  BaseTest:32 - Element Clicked
+2026-04-27 11:21:58 INFO  BaseTest:32 - Element Clicked
+2026-04-27 11:22:00 INFO  BaseTest:32 - Element Clicked
+2026-04-27 11:22:02 INFO  BaseTest:315 - Navigating to Cart Page
+2026-04-27 11:22:04 INFO  BaseTest:317 - CheckOut with Ronak Yadav 401209
+2026-04-27 11:22:14 INFO  BaseTest:319 - Verifying if the price is 103.65 or not.
+2026-04-27 11:22:23 INFO  BaseTest:322 - Add to Cart test Ended
+2026-04-27 11:22:28 INFO  BaseTest:57 - Login TestCases ended
+2026-04-27 11:22:28 INFO  BaseTest:36 - Login TestCases started
+2026-04-27 11:22:32 INFO  BaseTest:39 - Entered credentials
+2026-04-27 11:22:39 INFO  BaseTest:42 - Verify login
+2026-04-27 11:22:39 INFO  BaseTest:45 - Login successful
+2026-04-27 11:22:39 INFO  BaseTest:312 - Add to Cart Test Start
+2026-04-27 11:22:39 INFO  BaseTest:313 - Adding Items to Cart
+2026-04-27 11:22:39 INFO  BaseTest:32 - Element Clicked
+2026-04-27 11:22:41 INFO  BaseTest:32 - Element Clicked
+2026-04-27 11:22:43 INFO  BaseTest:32 - Element Clicked
+2026-04-27 11:22:45 INFO  BaseTest:315 - Navigating to Cart Page
+2026-04-27 11:22:47 INFO  BaseTest:317 - CheckOut with Demo Demo Last Name 401210
+2026-04-27 11:22:57 INFO  BaseTest:319 - Verifying if the price is 103.65 or not.
+2026-04-27 11:23:06 INFO  BaseTest:322 - Add to Cart test Ended
+2026-04-27 11:23:10 INFO  BaseTest:57 - Login TestCases ended
+2026-04-27 11:23:10 INFO  BaseTest:78 - Closing browser

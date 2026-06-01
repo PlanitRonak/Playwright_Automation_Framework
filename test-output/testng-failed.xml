@@ -5,7 +5,7 @@
     <listener class-name="com.qa.playwright.listeners.ExtentReportListener"/>
   </listeners>
   <test thread-count="3" parallel="tests" name="Swag Lab Login Page Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.qa.playwright.tests.SwagLabTc.LeavePageTest">
         <methods>

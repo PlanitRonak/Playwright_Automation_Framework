@@ -1,28 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-10T12:43:08 IST" name="Test Suite" finished-at="2026-04-10T12:43:32 IST" duration-ms="23226">
+  <suite started-at="2026-06-01T09:10:43 IST" name="Test Suite" finished-at="2026-06-01T09:12:59 IST" duration-ms="135804">
     <groups>
     </groups>
-    <test started-at="2026-04-10T12:43:08 IST" name="Swag Lab Login Page Test" finished-at="2026-04-10T12:43:32 IST" duration-ms="23226">
+    <test started-at="2026-06-01T09:10:43 IST" name="Swag Lab Login Page Test" finished-at="2026-06-01T09:12:59 IST" duration-ms="135804">
       <class name="com.qa.playwright.tests.SwagLabTc.LeavePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@67d48005]" started-at="2026-04-10T12:43:09 IST" name="setup" finished-at="2026-04-10T12:43:21 IST" duration-ms="12507" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@222545dc]" started-at="2026-06-01T09:10:44 IST" name="setup" finished-at="2026-06-01T09:11:41 IST" duration-ms="56816" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testHover()[pri:2, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@67d48005]" started-at="2026-04-10T12:43:21 IST" name="testHover" finished-at="2026-04-10T12:43:31 IST" duration-ms="10231" status="PASS">
+        <test-method signature="testCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@222545dc]" started-at="2026-06-01T09:11:41 IST" name="testCart" data-provider="swagLabCartData" finished-at="2026-06-01T09:12:21 IST" duration-ms="39541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ronak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yadav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401209]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[103.65]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[Ljava.lang.String;@33f1957a]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHover -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@67d48005]" started-at="2026-04-10T12:43:31 IST" name="tearDown" finished-at="2026-04-10T12:43:32 IST" duration-ms="208" status="PASS">
+        </test-method> <!-- testCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@222545dc]" started-at="2026-06-01T09:12:21 IST" name="tearDown" finished-at="2026-06-01T09:12:21 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@222545dc]" started-at="2026-06-01T09:12:21 IST" name="setup" finished-at="2026-06-01T09:12:29 IST" duration-ms="7342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,[Ljava.lang.String;)[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@222545dc]" started-at="2026-06-01T09:12:29 IST" name="testCart" data-provider="swagLabCartData" finished-at="2026-06-01T09:12:58 IST" duration-ms="29111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo Last Name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[401210]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[103.65]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[Ljava.lang.String;@33f1957a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.playwright.tests.SwagLabTc.LeavePageTest@222545dc]" started-at="2026-06-01T09:12:58 IST" name="tearDown" finished-at="2026-06-01T09:12:59 IST" duration-ms="815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

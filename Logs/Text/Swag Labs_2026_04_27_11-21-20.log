@@ -1,0 +1,12 @@
+2026-04-27 11:21:20 INFO  BaseTest:92 - Log4j initialized for this run: 2026_04_27_11-21-20
+2026-04-27 11:21:20 INFO  BaseTest:64 - Browser initialize
+2026-04-27 11:21:27 INFO  BaseTest:36 - Login TestCases started
+2026-04-27 11:21:31 INFO  BaseTest:39 - Entered credentials
+2026-04-27 11:21:33 INFO  BaseTest:42 - Verify login
+2026-04-27 11:21:33 INFO  BaseTest:45 - Login successful
+2026-04-27 11:21:33 INFO  BaseTest:312 - Add to Cart Test Start
+2026-04-27 11:21:33 INFO  BaseTest:313 - Adding Items to Cart
+2026-04-27 11:21:33 INFO  BaseTest:32 - Element Clicked
+2026-04-27 11:21:35 INFO  BaseTest:32 - Element Clicked
+2026-04-27 11:21:37 ERROR BaseTest:72 - Failed to Click Add to Cart Button
+2026-04-27 11:21:37 INFO  BaseTest:78 - Closing browser

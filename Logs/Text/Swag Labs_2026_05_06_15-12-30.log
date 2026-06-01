@@ -1,0 +1,15 @@
+2026-05-06 15:12:30 INFO  BaseTest:92 - Log4j initialized for this run: 2026_05_06_15-12-30
+2026-05-06 15:12:30 INFO  BaseTest:64 - Browser initialize
+2026-05-06 15:12:38 INFO  BaseTest:12 - Logging into Application
+2026-05-06 15:12:38 INFO  BaseTest:39 - Logging into website using standard_user and secret_sauce
+2026-05-06 15:12:44 INFO  BaseTest:14 - Navigating to HomePage
+2026-05-06 15:12:44 INFO  BaseTest:312 - Add to Cart Test Start
+2026-05-06 15:12:44 INFO  BaseTest:313 - Adding Items to Cart
+2026-05-06 15:12:44 INFO  BaseTest:32 - Element Clicked
+2026-05-06 15:12:46 INFO  BaseTest:32 - Element Clicked
+2026-05-06 15:12:49 INFO  BaseTest:32 - Element Clicked
+2026-05-06 15:12:51 INFO  BaseTest:315 - Navigating to Cart Page
+2026-05-06 15:12:53 INFO  BaseTest:317 - CheckOut with Demo Demo Last Name 401210
+2026-05-06 15:13:03 INFO  BaseTest:319 - Verifying if the price is 103.65 or not.
+2026-05-06 15:13:07 INFO  BaseTest:322 - Add to Cart test Ended
+2026-05-06 15:13:07 INFO  BaseTest:78 - Closing browser

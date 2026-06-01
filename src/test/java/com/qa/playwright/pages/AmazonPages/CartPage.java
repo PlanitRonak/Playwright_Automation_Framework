@@ -1,0 +1,24 @@
+package com.qa.playwright.pages.AmazonPages;
+
+import com.microsoft.playwright.Page;
+import com.qa.playwright.utilities.ReusableFunctions;
+import org.apache.log4j.Logger;
+
+public class CartPage {
+    private Page page;
+    private ReusableFunctions _reuse;
+    private Logger logger;
+    public CartPage (Page page, ReusableFunctions _reuse, Logger logger) {
+        this.page = page;
+        this._reuse = _reuse;
+        this.logger = logger;
+    }
+
+//    Locators
+    private String cartItems = "//ul[@data-name='Active Items']//div[@class='sc-list-item-content']";
+    private String deleteBtn = "//span[@class='sc-quantity-stepper']//button[1]";
+
+    public boolean verifyItemPresent() {
+        return page.isVisible(cartItems);
+    }
+}

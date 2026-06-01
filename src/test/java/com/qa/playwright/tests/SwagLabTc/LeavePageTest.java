@@ -32,7 +32,7 @@ public class LeavePageTest extends BaseTest {
         logger.info("Filter Test Case Finished");
     }
 
-    @Test(priority = 2, enabled = true)
+    @Test(priority = 2, enabled = false)
     public void testHover() throws InterruptedException {
         login();
         logger.info("Hover Test Case Started");
@@ -40,7 +40,7 @@ public class LeavePageTest extends BaseTest {
         logger.info("Hover Test Case Finished");
     }
 
-    @Test(dataProvider = "swagLabCartData", dataProviderClass = DataProviders.class, enabled = false)
+    @Test(dataProvider = "swagLabCartData", dataProviderClass = DataProviders.class, enabled = true)
     public void testCart(String firstName, String lastName, String zip, String total, String[] products) throws InterruptedException {
         login();
         _reuse.validateCart(swagLabHomePage, swagLabCartPage, products, firstName, lastName, zip, total);
