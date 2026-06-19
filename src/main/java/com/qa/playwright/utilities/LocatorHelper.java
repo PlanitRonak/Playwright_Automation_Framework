@@ -7,7 +7,7 @@ public class LocatorHelper {
         this.page = page;
     }
 
-    public Locator getElement(String... locators) {
+    public Locator getElement(String[] locators) {
         for (String locator : locators) {
             try {
                 Locator element = page.locator(locator);
