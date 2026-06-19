@@ -1,0 +1,7 @@
+2026-06-19 10:56:43 INFO  BaseTest:102 - Log4j initialized for this run: 2026_06_19_10-56-43
+2026-06-19 10:56:43 INFO  BaseTest:66 - Browser initialize
+2026-06-19 10:56:55 INFO  BaseTest:21 - Entering Credentials
+2026-06-19 10:56:55 INFO  BaseTest:170 - Entering Text
+2026-06-19 10:57:02 INFO  BaseTest:170 - Entering Text
+2026-06-19 10:57:34 ERROR BaseTest:173 - Error while entering text
+2026-06-19 10:57:35 INFO  BaseTest:88 - Closing browser

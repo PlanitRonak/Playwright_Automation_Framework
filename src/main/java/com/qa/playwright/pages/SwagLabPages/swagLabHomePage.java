@@ -3,6 +3,7 @@ package com.qa.playwright.pages.SwagLabPages;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
+import com.qa.playwright.utilities.LocatorHelper;
 import com.qa.playwright.utilities.ReusableFunctions;
 import org.testng.Assert;
 
@@ -11,8 +12,8 @@ import org.apache.log4j.Logger;
 
 public class swagLabHomePage extends BasePage {
 
-    public swagLabHomePage(Page page, ReusableFunctions _reuse, Logger logger) {
-        super(page, _reuse, logger);
+    public swagLabHomePage(Page page, ReusableFunctions _reuse, Logger logger, LocatorHelper locatorHelper) {
+        super(page, _reuse, logger, locatorHelper);
     }
 
     String menuBtn = "//button[@id='react-burger-menu-btn']";
@@ -79,6 +80,6 @@ public class swagLabHomePage extends BasePage {
 
     public swagLabCartPage navigateToCartPage() {
         page.locator(cartBtn).click();
-        return new swagLabCartPage(page, _reuse, logger);
+        return new swagLabCartPage(page, _reuse, logger, locatorHelper);
     }
 }

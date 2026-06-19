@@ -10,8 +10,8 @@
     <test name="Open Cart Home Page Test_chrome 1">
         <parameter name="browser" value="chromium" />
         <classes>
-<!--            <class name="com.qa.playwright.tests.OrangeHrmTc.LoginPageTest" />-->
-            <class name="com.qa.playwright.tests.OrangeHrmTc.LeavePageTest" />
+            <class name="com.qa.playwright.tests.OrangeHrmTc.LoginPageTest" />
+<!--            <class name="com.qa.playwright.tests.OrangeHrmTc.LeavePageTest" />-->
         </classes>
     </test>
 </suite>

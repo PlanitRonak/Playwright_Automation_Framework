@@ -3,6 +3,7 @@ package com.qa.playwright.pages.Instax;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
+import com.qa.playwright.utilities.LocatorHelper;
 import com.qa.playwright.utilities.ReusableFunctions;
 import org.apache.log4j.Logger;
 
@@ -10,8 +11,8 @@ import java.util.List;
 
 public class instaxHomePage extends BasePage {
 
-    public instaxHomePage(Page page, ReusableFunctions _reuse, Logger logger) {
-        super(page, _reuse, logger);
+    public instaxHomePage(Page page, ReusableFunctions _reuse, Logger logger, LocatorHelper locatorHelper) {
+        super(page, _reuse, logger, locatorHelper);
     }
 
     String searchIcon = "//i[@class='las la-search']";
