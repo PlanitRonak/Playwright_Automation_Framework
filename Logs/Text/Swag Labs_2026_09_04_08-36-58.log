@@ -1,0 +1,8 @@
+2026-09-04 08:36:58 INFO  BaseTest:102 - Log4j initialized for this run: 2026_09_04_08-36-58
+2026-09-04 08:36:58 INFO  BaseTest:66 - Browser initialize
+2026-09-04 08:37:13 INFO  BaseTest:23 - Filter Test Case Started
+2026-09-04 08:37:13 INFO  BaseTest:24 - Selecting Option
+2026-09-04 08:37:15 INFO  BaseTest:26 - Checking if the Filter is Applied or not
+2026-09-04 08:37:15 INFO  BaseTest:28 - Filter is Applied
+2026-09-04 08:37:15 INFO  BaseTest:33 - Filter Test Case Finished
+2026-09-04 08:37:15 INFO  BaseTest:88 - Closing browser

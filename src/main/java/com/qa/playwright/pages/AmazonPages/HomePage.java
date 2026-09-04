@@ -1,6 +1,7 @@
 package com.qa.playwright.pages.AmazonPages;
 
 import com.microsoft.playwright.Page;
+import com.qa.playwright.utilities.LocatorHelper;
 import com.qa.playwright.utilities.ReusableFunctions;
 import org.apache.log4j.Logger;
 
@@ -8,7 +9,7 @@ public class HomePage {
     private Page page;
     private ReusableFunctions _reuse;
     private Logger logger;
-    public HomePage(Page page, ReusableFunctions _reuse, Logger logger) {
+    public HomePage(Page page, ReusableFunctions _reuse, Logger logger, LocatorHelper locatorHelper) {
 //        super(page, _reuse);
         this.page=page;
         this._reuse=_reuse;

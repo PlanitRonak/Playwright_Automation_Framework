@@ -15,6 +15,7 @@ import com.qa.playwright.pages.SwagLabPages.swagLabCartPage;
 import com.qa.playwright.pages.SwagLabPages.swagLabHomePage;
 import com.qa.playwright.pages.SwagLabPages.swagLabLoginPage;
 import com.qa.playwright.pages.TestAutomationPages.testAutomationHomePage;
+import com.qa.playwright.utilities.LocatorHelper;
 import com.qa.playwright.utilities.ReusableFunctions;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -33,6 +34,7 @@ public class BaseTest {
     protected SoftAssert softAssert;
 
     protected static final Logger logger = Logger.getLogger(BaseTest.class);
+    protected LocatorHelper locatorHelper;
     protected ReusableFunctions _reuse;
 //    Pages
     protected PracticeHomePage homePage;
@@ -49,7 +51,7 @@ public class BaseTest {
     protected orangeHrmLeavePage orangeHrmLeavePage;
 
     @Parameters({ "browser" })
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setup(String browserName) {
         pf = new PlaywrightFactory();
 
@@ -63,17 +65,25 @@ public class BaseTest {
         }
         logger.info("Browser initialize");
         page = pf.initBrowser(prop);
+        locatorHelper = new LocatorHelper(page);
         _reuse = new ReusableFunctions(page, logger);
 
+//      Optimization you can create a pageobjectmanager class to keep this method clean
+//        PageObjectManager pom = new PageObjectManager(page);
+//        pom.getLoginPage().login();
+//        pom.getHomePage().verifyDashboard();
+
+//        the .getLoginPage() will return the LoginPage Object.
+
         homePage = new PracticeHomePage(page);
-        amazonPage = new HomePage(page, _reuse, logger);
-        swagloginPage = new swagLabLoginPage(page, _reuse, logger);
-        testAutomationHomePage = new testAutomationHomePage(page, _reuse, logger);
-        instaxHomePage = new instaxHomePage(page, _reuse, logger);
-        orangeHrmLoginPage = new orangeHrmLoginPage(page, _reuse, logger);
+        amazonPage = new HomePage(page, _reuse, logger, locatorHelper);
+        swagloginPage = new swagLabLoginPage(page, _reuse, logger, locatorHelper);
+        testAutomationHomePage = new testAutomationHomePage(page, _reuse, logger, locatorHelper);
+        instaxHomePage = new instaxHomePage(page, _reuse, logger, locatorHelper);
+        orangeHrmLoginPage = new orangeHrmLoginPage(page, _reuse, logger, locatorHelper);
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         logger.info("Closing browser");
         page.context().browser().close();

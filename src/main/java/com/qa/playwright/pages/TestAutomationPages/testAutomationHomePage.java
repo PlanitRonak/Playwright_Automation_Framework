@@ -2,6 +2,7 @@ package com.qa.playwright.pages.TestAutomationPages;
 
 import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
+import com.qa.playwright.utilities.LocatorHelper;
 import com.qa.playwright.utilities.ReusableFunctions;
 import org.apache.log4j.Logger;
 
@@ -9,8 +10,8 @@ import java.util.List;
 
 public class testAutomationHomePage extends BasePage {
 
-    public testAutomationHomePage(Page page, ReusableFunctions _reuse, Logger logger) {
-        super(page, _reuse, logger);
+    public testAutomationHomePage(Page page, ReusableFunctions _reuse, Logger logger, LocatorHelper locatorHelper) {
+        super(page, _reuse, logger, locatorHelper);
     }
 
     String radioBtns = "//input[@type='radio']";

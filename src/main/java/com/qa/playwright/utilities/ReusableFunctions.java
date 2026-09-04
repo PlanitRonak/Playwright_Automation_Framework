@@ -175,6 +175,16 @@ public class ReusableFunctions {
         }
     }
 
+    public void enterText (LocatorHelper locatorHelper, String[] locators, String value) {
+        try{
+            logger.info("Entering Text");
+            locatorHelper.getElement(locators).fill(value);
+        } catch (Exception e) {
+            logger.error("Error while entering text");
+            Assert.fail("Error while entering text");
+        }
+    }
+
     public void selectRadioBtnValue(String locator, String value) {
         try{
             logger.info("Locating Radio Button");

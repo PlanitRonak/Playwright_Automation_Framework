@@ -2,13 +2,14 @@ package com.qa.playwright.pages.SwagLabPages;
 
 import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
+import com.qa.playwright.utilities.LocatorHelper;
 import com.qa.playwright.utilities.ReusableFunctions;
 import org.apache.log4j.Logger;
 
 public class swagLabLoginPage extends BasePage {
 
-    public swagLabLoginPage(Page page, ReusableFunctions _reuse, Logger logger) {
-        super(page, _reuse, logger);
+    public swagLabLoginPage(Page page, ReusableFunctions _reuse, Logger logger, LocatorHelper locatorHelper) {
+        super(page, _reuse, logger, locatorHelper);
     }
 
     String userNameField = "//input[@id='user-name']";
@@ -44,6 +45,6 @@ public class swagLabLoginPage extends BasePage {
     }
 
     public swagLabHomePage navigateToHomePage() {
-        return new swagLabHomePage(page, _reuse, logger);
+        return new swagLabHomePage(page, _reuse, logger, locatorHelper);
     }
 }

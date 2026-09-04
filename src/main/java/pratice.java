@@ -48,5 +48,6 @@ public class pratice {
 //                System.out.println(i+" is Odd Number.");
 //            }
 //        }
+        int[] array = {1,2,3,4};
     }
 }

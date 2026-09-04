@@ -2,13 +2,14 @@ package com.qa.playwright.pages.OrangeHRMPages;
 
 import com.microsoft.playwright.Page;
 import com.qa.playwright.base.BasePage;
+import com.qa.playwright.utilities.LocatorHelper;
 import com.qa.playwright.utilities.ReusableFunctions;
 import org.apache.log4j.Logger;
 
 public class orangeHrmLeavePage extends BasePage {
 
-    public orangeHrmLeavePage(Page page, ReusableFunctions _reuse, Logger logger) {
-        super(page, _reuse, logger);
+    public orangeHrmLeavePage(Page page, ReusableFunctions _reuse, Logger logger, LocatorHelper locatorHelper) {
+        super(page, _reuse, logger, locatorHelper);
     }
 
     String name = "//p[@class='oxd-userdropdown-name']";
