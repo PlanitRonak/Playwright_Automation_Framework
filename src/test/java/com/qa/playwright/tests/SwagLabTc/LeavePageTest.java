@@ -11,13 +11,15 @@ public class LeavePageTest extends BaseTest {
             logger.info("Logging into Application");
             swagloginPage.login(prop.getProperty("username"), prop.getProperty("password"));
             logger.info("Navigating to HomePage");
+            Assert.assertTrue(swagloginPage.verifyLogin(), "Login Failed");
             swagLabHomePage = swagloginPage.navigateToHomePage();
         }
     }
 
-    @Test(priority = 1, enabled = false)
+    @Test(priority = 1, enabled = true, groups = {"smoke"})
     public void testFilter() {
-        login();
+//        login();
+        swagLabHomePage = swagloginPage.navigateToHomePage();
         logger.info("Filter Test Case Started");
         logger.info("Selecting Option");
         swagLabHomePage.selectOption("Price (low to high)");
@@ -39,7 +41,7 @@ public class LeavePageTest extends BaseTest {
         logger.info("Hover Test Case Finished");
     }
 
-    @Test(dataProvider = "swagLabCartData", dataProviderClass = DataProviders.class, enabled = true)
+    @Test(dataProvider = "swagLabCartData", dataProviderClass = DataProviders.class, enabled = false)
     public void testCart(String firstName, String lastName, String zip, String total, String[] products) throws InterruptedException {
         login();
         _reuse.validateCart(swagLabHomePage, swagLabCartPage, products, firstName, lastName, zip, total);

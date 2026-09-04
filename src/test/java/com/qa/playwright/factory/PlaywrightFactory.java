@@ -52,6 +52,7 @@ public class PlaywrightFactory {
         // playwright = Playwright.create();
         tlPlaywright.set(Playwright.create());
 
+//        Browser
         switch (browserName.toLowerCase()) {
             case "chromium":
                 tlBrowser.set(
@@ -118,8 +119,19 @@ public class PlaywrightFactory {
 //      We are using browserContext to maintain isolation in parallel as well as normal testing.
 //      Running multiple tests cannot interfere with each other.
 //      Important for maintaining independent sessions.
-        tlBrowserContext.set(getBrowser().newContext(new Browser.NewContextOptions().setViewportSize(null)));
+
+//        Context
+        tlBrowserContext.set(getBrowser()
+                .newContext(new Browser.NewContextOptions()
+                                .setViewportSize(null)
+                                .setStorageStatePath(Paths.get(".auth/user.json"))
+                )
+        );
+
+//        Page
         tlPage.set(getBrowserContext().newPage());
+
+//        Base URL
         getPage().navigate(prop.getProperty("url").trim());
         return getPage();
 

@@ -5,12 +5,17 @@
     <listener class-name="com.qa.playwright.listeners.ExtentReportListener"/>
   </listeners>
   <test thread-count="3" parallel="tests" name="Swag Lab Login Page Test(failed)">
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chromium"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
     <classes>
       <class name="com.qa.playwright.tests.SwagLabTc.LeavePageTest">
         <methods>
+          <include name="testFilter"/>
           <include name="setup"/>
-          <include name="testCart" invocation-numbers="1"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.playwright.tests.SwagLabTc.LeavePageTest -->

@@ -51,7 +51,7 @@ public class BaseTest {
     protected orangeHrmLeavePage orangeHrmLeavePage;
 
     @Parameters({ "browser" })
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setup(String browserName) {
         pf = new PlaywrightFactory();
 
@@ -83,7 +83,7 @@ public class BaseTest {
         orangeHrmLoginPage = new orangeHrmLoginPage(page, _reuse, logger, locatorHelper);
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         logger.info("Closing browser");
         page.context().browser().close();

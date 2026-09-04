@@ -1,0 +1,8 @@
+2026-08-21 11:38:51 INFO  BaseTest:102 - Log4j initialized for this run: 2026_08_21_11-38-51
+2026-08-21 11:38:51 INFO  BaseTest:66 - Browser initialize
+2026-08-21 11:38:57 INFO  BaseTest:12 - Login TestCases started
+2026-08-21 11:39:01 INFO  BaseTest:15 - Entered credentials with performance_glitch_user and secret_sauce
+2026-08-21 11:39:08 INFO  BaseTest:18 - Verify login
+2026-08-21 11:39:08 INFO  BaseTest:23 - Login Successful
+2026-08-21 11:39:08 INFO  BaseTest:29 - Login TestCases ended
+2026-08-21 11:39:08 INFO  BaseTest:88 - Closing browser
